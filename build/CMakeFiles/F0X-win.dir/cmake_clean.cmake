@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "C:/Users/hp/Desktop/app/F0X-Game/bin/libF0X-win.dll.a"
+  "CMakeFiles/F0X-win.dir/src/components/Mesh.cpp.obj"
+  "CMakeFiles/F0X-win.dir/src/components/Mesh.cpp.obj.d"
+  "CMakeFiles/F0X-win.dir/src/entities/Camera.cpp.obj"
+  "CMakeFiles/F0X-win.dir/src/entities/Camera.cpp.obj.d"
+  "CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj"
+  "CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj.d"
+  "CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj"
+  "CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj.d"
+  "CMakeFiles/F0X-win.dir/src/glad.c.obj"
+  "CMakeFiles/F0X-win.dir/src/glad.c.obj.d"
+  "CMakeFiles/F0X-win.dir/src/main.cpp.obj"
+  "CMakeFiles/F0X-win.dir/src/main.cpp.obj.d"
+  "CMakeFiles/F0X-win.dir/src/openGL/Ebo.cpp.obj"
+  "CMakeFiles/F0X-win.dir/src/openGL/Ebo.cpp.obj.d"
+  "CMakeFiles/F0X-win.dir/src/openGL/Texture.cpp.obj"
+  "CMakeFiles/F0X-win.dir/src/openGL/Texture.cpp.obj.d"
+  "CMakeFiles/F0X-win.dir/src/openGL/Vao.cpp.obj"
+  "CMakeFiles/F0X-win.dir/src/openGL/Vao.cpp.obj.d"
+  "CMakeFiles/F0X-win.dir/src/openGL/Vbo.cpp.obj"
+  "CMakeFiles/F0X-win.dir/src/openGL/Vbo.cpp.obj.d"
+  "CMakeFiles/F0X-win.dir/src/screen/InputManager.cpp.obj"
+  "CMakeFiles/F0X-win.dir/src/screen/InputManager.cpp.obj.d"
+  "CMakeFiles/F0X-win.dir/src/screen/Screen.cpp.obj"
+  "CMakeFiles/F0X-win.dir/src/screen/Screen.cpp.obj.d"
+  "CMakeFiles/F0X-win.dir/src/shaders/FragmentShader.cpp.obj"
+  "CMakeFiles/F0X-win.dir/src/shaders/FragmentShader.cpp.obj.d"
+  "CMakeFiles/F0X-win.dir/src/shaders/Shader.cpp.obj"
+  "CMakeFiles/F0X-win.dir/src/shaders/Shader.cpp.obj.d"
+  "CMakeFiles/F0X-win.dir/src/shaders/VertexShader.cpp.obj"
+  "CMakeFiles/F0X-win.dir/src/shaders/VertexShader.cpp.obj.d"
+  "F0X-win.exe"
+  "F0X-win.exe.manifest"
+  "F0X-win.pdb"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C CXX)
+  include(CMakeFiles/F0X-win.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
