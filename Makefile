@@ -1,38 +1,44 @@
 # Compiler and Flags
 CXX = g++
-CXXFLAGS = -std=c++11 -Wall -g -I./include
+CXXFLAGS = -std=c++17 -Wall -g -I./include
 LIBS = -lglfw -lGL -lm
 
-# Source files
-SRCS = $(wildcard src/*.cpp)
-OBJS = $(patsubst src/%.cpp, $(OBJDIR)/%.o, $(SRCS))  # Place .o files in the bin directory
+# Directories
+SRC_DIR = src
 OBJDIR = bin
+BUILD_DIR = build
 
-# Glad source file
-GLAD_SRC = src/glad.c
+# Find all .cpp files recursively
+SRCS = $(shell find $(SRC_DIR) -name '*.cpp')
+
+# Create matching object paths (replace src/ with bin/ and .cpp -> .o)
+OBJS = $(patsubst $(SRC_DIR)/%.cpp, $(OBJDIR)/%.o, $(SRCS))
+
+# Glad source file (if it’s not already in src/OpenGL)
+GLAD_SRC = $(SRC_DIR)/glad.c
 GLAD_OBJ = $(OBJDIR)/glad.o
 
-# Output executable name
-TARGET = build/F0X
+# Output executable
+TARGET = $(BUILD_DIR)/F0X
 
 # Default target
 all: $(TARGET)
 
-# Link the object files to create the executable
+# Link object files
 $(TARGET): $(OBJS) $(GLAD_OBJ)
-	@mkdir -p $(dir $(TARGET))  # Ensure the build directory exists
+	@mkdir -p $(dir $(TARGET))
 	$(CXX) $(OBJS) $(GLAD_OBJ) -o $(TARGET) $(LIBS)
 
-# Compile each .cpp file into a .o file in the OBJDIR
-$(OBJDIR)/%.o: src/%.cpp
-	@mkdir -p $(OBJDIR)  # Create OBJDIR if it doesn't exist
+# Compile .cpp files into .o files under bin/
+$(OBJDIR)/%.o: $(SRC_DIR)/%.cpp
+	@mkdir -p $(dir $@)
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
-# Compile glad.c into an object file
+# Compile glad.c
 $(GLAD_OBJ): $(GLAD_SRC)
-	@mkdir -p $(OBJDIR)  # Ensure the OBJDIR exists
+	@mkdir -p $(dir $@)
 	$(CXX) $(CXXFLAGS) -c $< -o $@
 
-# Clean up build files
+# Clean target
 clean:
-	rm -f $(OBJS) $(GLAD_OBJ) $(TARGET)
+	rm -rf $(OBJDIR) $(BUILD_DIR)
