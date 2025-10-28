@@ -80,12 +80,12 @@ clean: CMakeFiles/F0X-win.dir/clean
 CMakeFiles/F0X-win.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 "Built target F0X-win"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17 "Built target F0X-win"
 .PHONY : CMakeFiles/F0X-win.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/F0X-win.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/F0X-win.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles 0
 .PHONY : CMakeFiles/F0X-win.dir/rule

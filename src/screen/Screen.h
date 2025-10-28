@@ -5,7 +5,6 @@
 #include<memory>
 #include <thread>
 #include <chrono>
-#include "../shaders/Shader.h"
 #include "InputManager.h"
 #include"../entities/Camera.h"
 

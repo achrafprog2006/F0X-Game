@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/hp/Desktop/app/F0X-Game/src/entities/Camera.cpp" "CMakeFiles/F0X-win.dir/src/entities/Camera.cpp.obj" "gcc" "CMakeFiles/F0X-win.dir/src/entities/Camera.cpp.obj.d"
   "C:/Users/hp/Desktop/app/F0X-Game/src/entities/Entity.cpp" "CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj" "gcc" "CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj.d"
   "C:/Users/hp/Desktop/app/F0X-Game/src/entities/EntityManager.cpp" "CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj" "gcc" "CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj.d"
+  "C:/Users/hp/Desktop/app/F0X-Game/src/gameEngine/GameEngine.cpp" "CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.obj" "gcc" "CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.obj.d"
   "C:/Users/hp/Desktop/app/F0X-Game/src/main.cpp" "CMakeFiles/F0X-win.dir/src/main.cpp.obj" "gcc" "CMakeFiles/F0X-win.dir/src/main.cpp.obj.d"
   "C:/Users/hp/Desktop/app/F0X-Game/src/openGL/Ebo.cpp" "CMakeFiles/F0X-win.dir/src/openGL/Ebo.cpp.obj" "gcc" "CMakeFiles/F0X-win.dir/src/openGL/Ebo.cpp.obj.d"
   "C:/Users/hp/Desktop/app/F0X-Game/src/openGL/Texture.cpp" "CMakeFiles/F0X-win.dir/src/openGL/Texture.cpp.obj" "gcc" "CMakeFiles/F0X-win.dir/src/openGL/Texture.cpp.obj.d"

@@ -19,6 +19,7 @@ public:
         , fov = 45;
 
     Camera(const glm::vec3& pos, const glm::vec3& rot, float SC_width, float SC_height);
+    Camera()=default;
     void translate(const glm::vec3& t);
     void setPosition(const glm::vec3& pos);
     void setRotation(const glm::vec3& rot);

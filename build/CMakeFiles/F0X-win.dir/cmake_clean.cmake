@@ -8,6 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj.d"
   "CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj"
   "CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj.d"
+  "CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.obj"
+  "CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.obj.d"
   "CMakeFiles/F0X-win.dir/src/glad.c.obj"
   "CMakeFiles/F0X-win.dir/src/glad.c.obj.d"
   "CMakeFiles/F0X-win.dir/src/main.cpp.obj"

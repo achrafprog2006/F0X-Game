@@ -224,6 +224,30 @@ src/entities/EntityManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.s
 .PHONY : src/entities/EntityManager.cpp.s
 
+src/gameEngine/GameEngine.obj: src/gameEngine/GameEngine.cpp.obj
+.PHONY : src/gameEngine/GameEngine.obj
+
+# target to build an object file
+src/gameEngine/GameEngine.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.obj
+.PHONY : src/gameEngine/GameEngine.cpp.obj
+
+src/gameEngine/GameEngine.i: src/gameEngine/GameEngine.cpp.i
+.PHONY : src/gameEngine/GameEngine.i
+
+# target to preprocess a source file
+src/gameEngine/GameEngine.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.i
+.PHONY : src/gameEngine/GameEngine.cpp.i
+
+src/gameEngine/GameEngine.s: src/gameEngine/GameEngine.cpp.s
+.PHONY : src/gameEngine/GameEngine.s
+
+# target to generate assembly for a file
+src/gameEngine/GameEngine.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.s
+.PHONY : src/gameEngine/GameEngine.cpp.s
+
 src/glad.obj: src/glad.c.obj
 .PHONY : src/glad.obj
 
@@ -509,6 +533,9 @@ help:
 	@echo ... src/entities/EntityManager.obj
 	@echo ... src/entities/EntityManager.i
 	@echo ... src/entities/EntityManager.s
+	@echo ... src/gameEngine/GameEngine.obj
+	@echo ... src/gameEngine/GameEngine.i
+	@echo ... src/gameEngine/GameEngine.s
 	@echo ... src/glad.obj
 	@echo ... src/glad.i
 	@echo ... src/glad.s
