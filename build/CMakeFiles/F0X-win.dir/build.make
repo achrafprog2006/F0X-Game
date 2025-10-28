@@ -348,6 +348,7 @@ F0X-win.exe: CMakeFiles/F0X-win.dir/src/shaders/VertexShader.cpp.obj
 F0X-win.exe: CMakeFiles/F0X-win.dir/src/glad.c.obj
 F0X-win.exe: CMakeFiles/F0X-win.dir/build.make
 F0X-win.exe: C:/Users/hp/Desktop/app/F0X-Game/lib/libglfw3.a
+F0X-win.exe: C:/Users/hp/Desktop/app/F0X-Game/lib/libassimp.a
 F0X-win.exe: CMakeFiles/F0X-win.dir/linkLibs.rsp
 F0X-win.exe: CMakeFiles/F0X-win.dir/objects1.rsp
 F0X-win.exe: CMakeFiles/F0X-win.dir/link.txt

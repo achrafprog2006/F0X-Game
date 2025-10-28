@@ -1,1 +1,1 @@
- "C:/Users/hp/Desktop/app/F0X-Game/lib/libglfw3.a" -lopengl32 -lgdi32 -luser32 -lshell32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 
+ "C:/Users/hp/Desktop/app/F0X-Game/lib/libglfw3.a" "C:/Users/hp/Desktop/app/F0X-Game/lib/libassimp.a" -lopengl32 -lgdi32 -luser32 -lshell32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

@@ -15,6 +15,7 @@ set(BUILD_DIR ${CMAKE_SOURCE_DIR}/build)
 set(OBJ_DIR ${CMAKE_SOURCE_DIR}/bin)
 
 include_directories(${INCLUDE_DIR})
+# Add Assimp include path
 
 # -----------------------------
 # Source files
@@ -41,17 +42,33 @@ if(WIN32)
 
     target_link_libraries(${PROJECT_NAME}
         ${LIB_DIR}/libglfw3.a  # Precompiled GLFW for MinGW
+         ${LIB_DIR}/libassimp.a  # Precompiled Assimp for MinGW
         opengl32
         gdi32
         user32
         shell32
     )
 elseif(UNIX)
-    # Linux
+    # Linux / macOS
     find_package(PkgConfig REQUIRED)
     pkg_search_module(GLFW REQUIRED glfw3)
     include_directories(${GLFW_INCLUDE_DIRS})
-    target_link_libraries(${PROJECT_NAME} ${GLFW_LIBRARIES} m)
+
+    # Find Assimp
+    find_package(assimp REQUIRED)
+    include_directories(${ASSIMP_INCLUDE_DIRS})
+
+    # Link libraries
+    target_link_libraries(${PROJECT_NAME}
+        ${GLFW_LIBRARIES}   # GLFW
+        ${ASSIMP_LIBRARIES} # Assimp
+        GL                  # OpenGL
+        pthread             # Threads
+        X11                 # X11 (for GLFW)
+        dl                  # Dynamic loader
+        m                   # Math
+    )
+    
 endif()
 
 # -----------------------------
