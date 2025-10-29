@@ -18,11 +18,11 @@
         glLinkProgram(ID);
         int  success;
         char infoLog[512];
-        glGetProgramiv(ID, GL_COMPILE_STATUS, &success);
+        glGetProgramiv(ID, GL_LINK_STATUS, &success);
         if (!success) 
         {
             glGetProgramInfoLog(ID, 512, NULL, infoLog);
-            std::cout << "ERROR::Program::" << "::LINK_FAILED\n" << infoLog << std::endl;
+            std::cout << "ERROR::Program" << "::LINK_FAILED\n" << infoLog << std::endl;
         }
     }
 

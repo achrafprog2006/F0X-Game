@@ -128,6 +128,54 @@ F0X-win/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/build
 .PHONY : F0X-win/fast
 
+src/Managers/ShaderManager.obj: src/Managers/ShaderManager.cpp.obj
+.PHONY : src/Managers/ShaderManager.obj
+
+# target to build an object file
+src/Managers/ShaderManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/Managers/ShaderManager.cpp.obj
+.PHONY : src/Managers/ShaderManager.cpp.obj
+
+src/Managers/ShaderManager.i: src/Managers/ShaderManager.cpp.i
+.PHONY : src/Managers/ShaderManager.i
+
+# target to preprocess a source file
+src/Managers/ShaderManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/Managers/ShaderManager.cpp.i
+.PHONY : src/Managers/ShaderManager.cpp.i
+
+src/Managers/ShaderManager.s: src/Managers/ShaderManager.cpp.s
+.PHONY : src/Managers/ShaderManager.s
+
+# target to generate assembly for a file
+src/Managers/ShaderManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/Managers/ShaderManager.cpp.s
+.PHONY : src/Managers/ShaderManager.cpp.s
+
+src/Managers/TextureManager.obj: src/Managers/TextureManager.cpp.obj
+.PHONY : src/Managers/TextureManager.obj
+
+# target to build an object file
+src/Managers/TextureManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/Managers/TextureManager.cpp.obj
+.PHONY : src/Managers/TextureManager.cpp.obj
+
+src/Managers/TextureManager.i: src/Managers/TextureManager.cpp.i
+.PHONY : src/Managers/TextureManager.i
+
+# target to preprocess a source file
+src/Managers/TextureManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/Managers/TextureManager.cpp.i
+.PHONY : src/Managers/TextureManager.cpp.i
+
+src/Managers/TextureManager.s: src/Managers/TextureManager.cpp.s
+.PHONY : src/Managers/TextureManager.s
+
+# target to generate assembly for a file
+src/Managers/TextureManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/Managers/TextureManager.cpp.s
+.PHONY : src/Managers/TextureManager.cpp.s
+
 src/components/Mesh.obj: src/components/Mesh.cpp.obj
 .PHONY : src/components/Mesh.obj
 
@@ -392,6 +440,30 @@ src/openGL/Vbo.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/openGL/Vbo.cpp.s
 .PHONY : src/openGL/Vbo.cpp.s
 
+src/scenes/Scene1.obj: src/scenes/Scene1.cpp.obj
+.PHONY : src/scenes/Scene1.obj
+
+# target to build an object file
+src/scenes/Scene1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/scenes/Scene1.cpp.obj
+.PHONY : src/scenes/Scene1.cpp.obj
+
+src/scenes/Scene1.i: src/scenes/Scene1.cpp.i
+.PHONY : src/scenes/Scene1.i
+
+# target to preprocess a source file
+src/scenes/Scene1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/scenes/Scene1.cpp.i
+.PHONY : src/scenes/Scene1.cpp.i
+
+src/scenes/Scene1.s: src/scenes/Scene1.cpp.s
+.PHONY : src/scenes/Scene1.s
+
+# target to generate assembly for a file
+src/scenes/Scene1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/scenes/Scene1.cpp.s
+.PHONY : src/scenes/Scene1.cpp.s
+
 src/screen/InputManager.obj: src/screen/InputManager.cpp.obj
 .PHONY : src/screen/InputManager.obj
 
@@ -512,6 +584,102 @@ src/shaders/VertexShader.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/shaders/VertexShader.cpp.s
 .PHONY : src/shaders/VertexShader.cpp.s
 
+src/systems/RenderSystem.obj: src/systems/RenderSystem.cpp.obj
+.PHONY : src/systems/RenderSystem.obj
+
+# target to build an object file
+src/systems/RenderSystem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.obj
+.PHONY : src/systems/RenderSystem.cpp.obj
+
+src/systems/RenderSystem.i: src/systems/RenderSystem.cpp.i
+.PHONY : src/systems/RenderSystem.i
+
+# target to preprocess a source file
+src/systems/RenderSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.i
+.PHONY : src/systems/RenderSystem.cpp.i
+
+src/systems/RenderSystem.s: src/systems/RenderSystem.cpp.s
+.PHONY : src/systems/RenderSystem.s
+
+# target to generate assembly for a file
+src/systems/RenderSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.s
+.PHONY : src/systems/RenderSystem.cpp.s
+
+src/systems/TerrainSystem.obj: src/systems/TerrainSystem.cpp.obj
+.PHONY : src/systems/TerrainSystem.obj
+
+# target to build an object file
+src/systems/TerrainSystem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/TerrainSystem.cpp.obj
+.PHONY : src/systems/TerrainSystem.cpp.obj
+
+src/systems/TerrainSystem.i: src/systems/TerrainSystem.cpp.i
+.PHONY : src/systems/TerrainSystem.i
+
+# target to preprocess a source file
+src/systems/TerrainSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/TerrainSystem.cpp.i
+.PHONY : src/systems/TerrainSystem.cpp.i
+
+src/systems/TerrainSystem.s: src/systems/TerrainSystem.cpp.s
+.PHONY : src/systems/TerrainSystem.s
+
+# target to generate assembly for a file
+src/systems/TerrainSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/TerrainSystem.cpp.s
+.PHONY : src/systems/TerrainSystem.cpp.s
+
+src/systems/TransformSystem.obj: src/systems/TransformSystem.cpp.obj
+.PHONY : src/systems/TransformSystem.obj
+
+# target to build an object file
+src/systems/TransformSystem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.obj
+.PHONY : src/systems/TransformSystem.cpp.obj
+
+src/systems/TransformSystem.i: src/systems/TransformSystem.cpp.i
+.PHONY : src/systems/TransformSystem.i
+
+# target to preprocess a source file
+src/systems/TransformSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.i
+.PHONY : src/systems/TransformSystem.cpp.i
+
+src/systems/TransformSystem.s: src/systems/TransformSystem.cpp.s
+.PHONY : src/systems/TransformSystem.s
+
+# target to generate assembly for a file
+src/systems/TransformSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.s
+.PHONY : src/systems/TransformSystem.cpp.s
+
+src/systems/VelocitySystem.obj: src/systems/VelocitySystem.cpp.obj
+.PHONY : src/systems/VelocitySystem.obj
+
+# target to build an object file
+src/systems/VelocitySystem.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.obj
+.PHONY : src/systems/VelocitySystem.cpp.obj
+
+src/systems/VelocitySystem.i: src/systems/VelocitySystem.cpp.i
+.PHONY : src/systems/VelocitySystem.i
+
+# target to preprocess a source file
+src/systems/VelocitySystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.i
+.PHONY : src/systems/VelocitySystem.cpp.i
+
+src/systems/VelocitySystem.s: src/systems/VelocitySystem.cpp.s
+.PHONY : src/systems/VelocitySystem.s
+
+# target to generate assembly for a file
+src/systems/VelocitySystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.s
+.PHONY : src/systems/VelocitySystem.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -521,6 +689,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... F0X-win
+	@echo ... src/Managers/ShaderManager.obj
+	@echo ... src/Managers/ShaderManager.i
+	@echo ... src/Managers/ShaderManager.s
+	@echo ... src/Managers/TextureManager.obj
+	@echo ... src/Managers/TextureManager.i
+	@echo ... src/Managers/TextureManager.s
 	@echo ... src/components/Mesh.obj
 	@echo ... src/components/Mesh.i
 	@echo ... src/components/Mesh.s
@@ -554,6 +728,9 @@ help:
 	@echo ... src/openGL/Vbo.obj
 	@echo ... src/openGL/Vbo.i
 	@echo ... src/openGL/Vbo.s
+	@echo ... src/scenes/Scene1.obj
+	@echo ... src/scenes/Scene1.i
+	@echo ... src/scenes/Scene1.s
 	@echo ... src/screen/InputManager.obj
 	@echo ... src/screen/InputManager.i
 	@echo ... src/screen/InputManager.s
@@ -569,6 +746,18 @@ help:
 	@echo ... src/shaders/VertexShader.obj
 	@echo ... src/shaders/VertexShader.i
 	@echo ... src/shaders/VertexShader.s
+	@echo ... src/systems/RenderSystem.obj
+	@echo ... src/systems/RenderSystem.i
+	@echo ... src/systems/RenderSystem.s
+	@echo ... src/systems/TerrainSystem.obj
+	@echo ... src/systems/TerrainSystem.i
+	@echo ... src/systems/TerrainSystem.s
+	@echo ... src/systems/TransformSystem.obj
+	@echo ... src/systems/TransformSystem.i
+	@echo ... src/systems/TransformSystem.s
+	@echo ... src/systems/VelocitySystem.obj
+	@echo ... src/systems/VelocitySystem.i
+	@echo ... src/systems/VelocitySystem.s
 .PHONY : help
 
 

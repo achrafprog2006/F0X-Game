@@ -1,10 +1,8 @@
 #include"GameEngine.h"
-
-#include<glad/glad.h>
-#include "../screen/Screen.h"
 #include"../entities/Camera.h"
 #include <iostream>
-#include<memory>
+#include"../scenes/Scene1.h"
+
 
 GameEngine::GameEngine()
 {}
@@ -12,17 +10,15 @@ GameEngine::GameEngine()
 
 void GameEngine::run()
 {
-    auto  screen=std::make_shared<Screen>(800, 600, "LearnOpenGL");
-    auto camera = std::make_shared<Camera>();
-    screen->init();
-    float red=0;
-    while (screen->is_open())
+    screen = std::make_shared<Screen>(800, 600, "Salam o alaykom");
+	running = screen->init();
+    scene = std::make_shared<Scene1>(screen);
+    scene->init();
+    while (screen->is_open()&& running)
     {
-        glClearColor(0, 0.3f, 0.3f, 1.0f);
-        glClear(GL_COLOR_BUFFER_BIT);
-        screen->update(camera);
+        screen->update(scene->camera);
+        scene->update();
     }
-    
 }
 
  

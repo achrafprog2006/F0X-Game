@@ -42,7 +42,6 @@ if(WIN32)
 
     target_link_libraries(${PROJECT_NAME}
         ${LIB_DIR}/libglfw3.a  # Precompiled GLFW for MinGW
-         ${LIB_DIR}/libassimp.a  # Precompiled Assimp for MinGW
         opengl32
         gdi32
         user32
