@@ -38,7 +38,7 @@ void Scene1::init()
 
 	//----------elk--------------------
 	auto elk = entityManager->addEntity("elk");
-	elk->Cmodel = std::make_shared<Model>("resources/elk/scene.gltf");
+	elk->Cmodel = std::make_shared<Model>("../resources/elk/scene.gltf");
 	elk->Cshader = ShaderManager::get("shader");
 
 	elk->Ctransform = std::make_shared<Transform>(
@@ -83,12 +83,12 @@ void Scene1::init()
 	auto terrain = entityManager->addEntity("terrain");
 	terrain->Cterrain= std::make_shared<Terrain>();
 
-	TerrainGenerator::generate(vertices_texCoords, indices, spacing, size, "resources/black.png", terrain->Cterrain->heightData);
+	TerrainGenerator::generate(vertices_texCoords, indices, spacing, size, "../resources/black.png", terrain->Cterrain->heightData);
     std::cout<<vertices_texCoords.size()<<"\n";
 	terrain->CstaticMesh = std::make_shared<StaticMesh> (
 		vertices_texCoords,
 		indices,
-		TextureManager::get("resources/grassy3.png")
+		TextureManager::get("../resources/grassy3.png")
 	);
 	terrain->Cshader = ShaderManager::get("shader");
 	terrain->Ctransform = std::make_shared<Transform>(

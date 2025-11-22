@@ -49,5 +49,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/F0X-win.dir/DependInfo.cmake"
+  "CMakeFiles/F0X.dir/DependInfo.cmake"
   )

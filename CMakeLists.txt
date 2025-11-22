@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(F0X-win)
+project(F0X)
 
 # -----------------------------
 # C++ Standard

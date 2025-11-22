@@ -154,7 +154,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=F0X-win
+CMAKE_PROJECT_NAME:STATIC=F0X
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/MinGW/bin/ranlib.exe
@@ -247,6 +247,15 @@ F0X-win_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 F0X-win_SOURCE_DIR:STATIC=C:/Users/hp/Desktop/app/F0X-Game
+
+//Value Computed by CMake
+F0X_BINARY_DIR:STATIC=C:/Users/hp/Desktop/app/F0X-Game/build
+
+//Value Computed by CMake
+F0X_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+F0X_SOURCE_DIR:STATIC=C:/Users/hp/Desktop/app/F0X-Game
 
 
 ########################

@@ -116,24 +116,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named F0X-win
+# Target rules for targets named F0X
 
 # Build rule for target.
-F0X-win: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 F0X-win
-.PHONY : F0X-win
+F0X: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 F0X
+.PHONY : F0X
 
 # fast build rule for target.
-F0X-win/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/build
-.PHONY : F0X-win/fast
+F0X/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/build
+.PHONY : F0X/fast
 
 src/Managers/ShaderManager.obj: src/Managers/ShaderManager.cpp.obj
 .PHONY : src/Managers/ShaderManager.obj
 
 # target to build an object file
 src/Managers/ShaderManager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/Managers/ShaderManager.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/Managers/ShaderManager.cpp.obj
 .PHONY : src/Managers/ShaderManager.cpp.obj
 
 src/Managers/ShaderManager.i: src/Managers/ShaderManager.cpp.i
@@ -141,7 +141,7 @@ src/Managers/ShaderManager.i: src/Managers/ShaderManager.cpp.i
 
 # target to preprocess a source file
 src/Managers/ShaderManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/Managers/ShaderManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/Managers/ShaderManager.cpp.i
 .PHONY : src/Managers/ShaderManager.cpp.i
 
 src/Managers/ShaderManager.s: src/Managers/ShaderManager.cpp.s
@@ -149,7 +149,7 @@ src/Managers/ShaderManager.s: src/Managers/ShaderManager.cpp.s
 
 # target to generate assembly for a file
 src/Managers/ShaderManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/Managers/ShaderManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/Managers/ShaderManager.cpp.s
 .PHONY : src/Managers/ShaderManager.cpp.s
 
 src/Managers/TextureManager.obj: src/Managers/TextureManager.cpp.obj
@@ -157,7 +157,7 @@ src/Managers/TextureManager.obj: src/Managers/TextureManager.cpp.obj
 
 # target to build an object file
 src/Managers/TextureManager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/Managers/TextureManager.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/Managers/TextureManager.cpp.obj
 .PHONY : src/Managers/TextureManager.cpp.obj
 
 src/Managers/TextureManager.i: src/Managers/TextureManager.cpp.i
@@ -165,7 +165,7 @@ src/Managers/TextureManager.i: src/Managers/TextureManager.cpp.i
 
 # target to preprocess a source file
 src/Managers/TextureManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/Managers/TextureManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/Managers/TextureManager.cpp.i
 .PHONY : src/Managers/TextureManager.cpp.i
 
 src/Managers/TextureManager.s: src/Managers/TextureManager.cpp.s
@@ -173,7 +173,7 @@ src/Managers/TextureManager.s: src/Managers/TextureManager.cpp.s
 
 # target to generate assembly for a file
 src/Managers/TextureManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/Managers/TextureManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/Managers/TextureManager.cpp.s
 .PHONY : src/Managers/TextureManager.cpp.s
 
 src/components/Mesh.obj: src/components/Mesh.cpp.obj
@@ -181,7 +181,7 @@ src/components/Mesh.obj: src/components/Mesh.cpp.obj
 
 # target to build an object file
 src/components/Mesh.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/components/Mesh.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/components/Mesh.cpp.obj
 .PHONY : src/components/Mesh.cpp.obj
 
 src/components/Mesh.i: src/components/Mesh.cpp.i
@@ -189,7 +189,7 @@ src/components/Mesh.i: src/components/Mesh.cpp.i
 
 # target to preprocess a source file
 src/components/Mesh.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/components/Mesh.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/components/Mesh.cpp.i
 .PHONY : src/components/Mesh.cpp.i
 
 src/components/Mesh.s: src/components/Mesh.cpp.s
@@ -197,7 +197,7 @@ src/components/Mesh.s: src/components/Mesh.cpp.s
 
 # target to generate assembly for a file
 src/components/Mesh.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/components/Mesh.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/components/Mesh.cpp.s
 .PHONY : src/components/Mesh.cpp.s
 
 src/components/Model.obj: src/components/Model.cpp.obj
@@ -205,7 +205,7 @@ src/components/Model.obj: src/components/Model.cpp.obj
 
 # target to build an object file
 src/components/Model.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/components/Model.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/components/Model.cpp.obj
 .PHONY : src/components/Model.cpp.obj
 
 src/components/Model.i: src/components/Model.cpp.i
@@ -213,7 +213,7 @@ src/components/Model.i: src/components/Model.cpp.i
 
 # target to preprocess a source file
 src/components/Model.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/components/Model.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/components/Model.cpp.i
 .PHONY : src/components/Model.cpp.i
 
 src/components/Model.s: src/components/Model.cpp.s
@@ -221,7 +221,7 @@ src/components/Model.s: src/components/Model.cpp.s
 
 # target to generate assembly for a file
 src/components/Model.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/components/Model.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/components/Model.cpp.s
 .PHONY : src/components/Model.cpp.s
 
 src/entities/Camera.obj: src/entities/Camera.cpp.obj
@@ -229,7 +229,7 @@ src/entities/Camera.obj: src/entities/Camera.cpp.obj
 
 # target to build an object file
 src/entities/Camera.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/entities/Camera.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/entities/Camera.cpp.obj
 .PHONY : src/entities/Camera.cpp.obj
 
 src/entities/Camera.i: src/entities/Camera.cpp.i
@@ -237,7 +237,7 @@ src/entities/Camera.i: src/entities/Camera.cpp.i
 
 # target to preprocess a source file
 src/entities/Camera.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/entities/Camera.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/entities/Camera.cpp.i
 .PHONY : src/entities/Camera.cpp.i
 
 src/entities/Camera.s: src/entities/Camera.cpp.s
@@ -245,7 +245,7 @@ src/entities/Camera.s: src/entities/Camera.cpp.s
 
 # target to generate assembly for a file
 src/entities/Camera.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/entities/Camera.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/entities/Camera.cpp.s
 .PHONY : src/entities/Camera.cpp.s
 
 src/entities/Entity.obj: src/entities/Entity.cpp.obj
@@ -253,7 +253,7 @@ src/entities/Entity.obj: src/entities/Entity.cpp.obj
 
 # target to build an object file
 src/entities/Entity.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/entities/Entity.cpp.obj
 .PHONY : src/entities/Entity.cpp.obj
 
 src/entities/Entity.i: src/entities/Entity.cpp.i
@@ -261,7 +261,7 @@ src/entities/Entity.i: src/entities/Entity.cpp.i
 
 # target to preprocess a source file
 src/entities/Entity.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/entities/Entity.cpp.i
 .PHONY : src/entities/Entity.cpp.i
 
 src/entities/Entity.s: src/entities/Entity.cpp.s
@@ -269,7 +269,7 @@ src/entities/Entity.s: src/entities/Entity.cpp.s
 
 # target to generate assembly for a file
 src/entities/Entity.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/entities/Entity.cpp.s
 .PHONY : src/entities/Entity.cpp.s
 
 src/entities/EntityManager.obj: src/entities/EntityManager.cpp.obj
@@ -277,7 +277,7 @@ src/entities/EntityManager.obj: src/entities/EntityManager.cpp.obj
 
 # target to build an object file
 src/entities/EntityManager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/entities/EntityManager.cpp.obj
 .PHONY : src/entities/EntityManager.cpp.obj
 
 src/entities/EntityManager.i: src/entities/EntityManager.cpp.i
@@ -285,7 +285,7 @@ src/entities/EntityManager.i: src/entities/EntityManager.cpp.i
 
 # target to preprocess a source file
 src/entities/EntityManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/entities/EntityManager.cpp.i
 .PHONY : src/entities/EntityManager.cpp.i
 
 src/entities/EntityManager.s: src/entities/EntityManager.cpp.s
@@ -293,7 +293,7 @@ src/entities/EntityManager.s: src/entities/EntityManager.cpp.s
 
 # target to generate assembly for a file
 src/entities/EntityManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/entities/EntityManager.cpp.s
 .PHONY : src/entities/EntityManager.cpp.s
 
 src/gameEngine/GameEngine.obj: src/gameEngine/GameEngine.cpp.obj
@@ -301,7 +301,7 @@ src/gameEngine/GameEngine.obj: src/gameEngine/GameEngine.cpp.obj
 
 # target to build an object file
 src/gameEngine/GameEngine.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/gameEngine/GameEngine.cpp.obj
 .PHONY : src/gameEngine/GameEngine.cpp.obj
 
 src/gameEngine/GameEngine.i: src/gameEngine/GameEngine.cpp.i
@@ -309,7 +309,7 @@ src/gameEngine/GameEngine.i: src/gameEngine/GameEngine.cpp.i
 
 # target to preprocess a source file
 src/gameEngine/GameEngine.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/gameEngine/GameEngine.cpp.i
 .PHONY : src/gameEngine/GameEngine.cpp.i
 
 src/gameEngine/GameEngine.s: src/gameEngine/GameEngine.cpp.s
@@ -317,7 +317,7 @@ src/gameEngine/GameEngine.s: src/gameEngine/GameEngine.cpp.s
 
 # target to generate assembly for a file
 src/gameEngine/GameEngine.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/gameEngine/GameEngine.cpp.s
 .PHONY : src/gameEngine/GameEngine.cpp.s
 
 src/glad.obj: src/glad.c.obj
@@ -325,7 +325,7 @@ src/glad.obj: src/glad.c.obj
 
 # target to build an object file
 src/glad.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/glad.c.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/glad.c.obj
 .PHONY : src/glad.c.obj
 
 src/glad.i: src/glad.c.i
@@ -333,7 +333,7 @@ src/glad.i: src/glad.c.i
 
 # target to preprocess a source file
 src/glad.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/glad.c.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/glad.c.i
 .PHONY : src/glad.c.i
 
 src/glad.s: src/glad.c.s
@@ -341,7 +341,7 @@ src/glad.s: src/glad.c.s
 
 # target to generate assembly for a file
 src/glad.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/glad.c.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/glad.c.s
 .PHONY : src/glad.c.s
 
 src/main.obj: src/main.cpp.obj
@@ -349,7 +349,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -357,7 +357,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -365,7 +365,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/openGL/Ebo.obj: src/openGL/Ebo.cpp.obj
@@ -373,7 +373,7 @@ src/openGL/Ebo.obj: src/openGL/Ebo.cpp.obj
 
 # target to build an object file
 src/openGL/Ebo.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/openGL/Ebo.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/openGL/Ebo.cpp.obj
 .PHONY : src/openGL/Ebo.cpp.obj
 
 src/openGL/Ebo.i: src/openGL/Ebo.cpp.i
@@ -381,7 +381,7 @@ src/openGL/Ebo.i: src/openGL/Ebo.cpp.i
 
 # target to preprocess a source file
 src/openGL/Ebo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/openGL/Ebo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/openGL/Ebo.cpp.i
 .PHONY : src/openGL/Ebo.cpp.i
 
 src/openGL/Ebo.s: src/openGL/Ebo.cpp.s
@@ -389,7 +389,7 @@ src/openGL/Ebo.s: src/openGL/Ebo.cpp.s
 
 # target to generate assembly for a file
 src/openGL/Ebo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/openGL/Ebo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/openGL/Ebo.cpp.s
 .PHONY : src/openGL/Ebo.cpp.s
 
 src/openGL/Texture.obj: src/openGL/Texture.cpp.obj
@@ -397,7 +397,7 @@ src/openGL/Texture.obj: src/openGL/Texture.cpp.obj
 
 # target to build an object file
 src/openGL/Texture.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/openGL/Texture.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/openGL/Texture.cpp.obj
 .PHONY : src/openGL/Texture.cpp.obj
 
 src/openGL/Texture.i: src/openGL/Texture.cpp.i
@@ -405,7 +405,7 @@ src/openGL/Texture.i: src/openGL/Texture.cpp.i
 
 # target to preprocess a source file
 src/openGL/Texture.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/openGL/Texture.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/openGL/Texture.cpp.i
 .PHONY : src/openGL/Texture.cpp.i
 
 src/openGL/Texture.s: src/openGL/Texture.cpp.s
@@ -413,7 +413,7 @@ src/openGL/Texture.s: src/openGL/Texture.cpp.s
 
 # target to generate assembly for a file
 src/openGL/Texture.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/openGL/Texture.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/openGL/Texture.cpp.s
 .PHONY : src/openGL/Texture.cpp.s
 
 src/openGL/Vao.obj: src/openGL/Vao.cpp.obj
@@ -421,7 +421,7 @@ src/openGL/Vao.obj: src/openGL/Vao.cpp.obj
 
 # target to build an object file
 src/openGL/Vao.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/openGL/Vao.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/openGL/Vao.cpp.obj
 .PHONY : src/openGL/Vao.cpp.obj
 
 src/openGL/Vao.i: src/openGL/Vao.cpp.i
@@ -429,7 +429,7 @@ src/openGL/Vao.i: src/openGL/Vao.cpp.i
 
 # target to preprocess a source file
 src/openGL/Vao.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/openGL/Vao.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/openGL/Vao.cpp.i
 .PHONY : src/openGL/Vao.cpp.i
 
 src/openGL/Vao.s: src/openGL/Vao.cpp.s
@@ -437,7 +437,7 @@ src/openGL/Vao.s: src/openGL/Vao.cpp.s
 
 # target to generate assembly for a file
 src/openGL/Vao.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/openGL/Vao.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/openGL/Vao.cpp.s
 .PHONY : src/openGL/Vao.cpp.s
 
 src/openGL/Vbo.obj: src/openGL/Vbo.cpp.obj
@@ -445,7 +445,7 @@ src/openGL/Vbo.obj: src/openGL/Vbo.cpp.obj
 
 # target to build an object file
 src/openGL/Vbo.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/openGL/Vbo.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/openGL/Vbo.cpp.obj
 .PHONY : src/openGL/Vbo.cpp.obj
 
 src/openGL/Vbo.i: src/openGL/Vbo.cpp.i
@@ -453,7 +453,7 @@ src/openGL/Vbo.i: src/openGL/Vbo.cpp.i
 
 # target to preprocess a source file
 src/openGL/Vbo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/openGL/Vbo.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/openGL/Vbo.cpp.i
 .PHONY : src/openGL/Vbo.cpp.i
 
 src/openGL/Vbo.s: src/openGL/Vbo.cpp.s
@@ -461,7 +461,7 @@ src/openGL/Vbo.s: src/openGL/Vbo.cpp.s
 
 # target to generate assembly for a file
 src/openGL/Vbo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/openGL/Vbo.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/openGL/Vbo.cpp.s
 .PHONY : src/openGL/Vbo.cpp.s
 
 src/scenes/Scene1.obj: src/scenes/Scene1.cpp.obj
@@ -469,7 +469,7 @@ src/scenes/Scene1.obj: src/scenes/Scene1.cpp.obj
 
 # target to build an object file
 src/scenes/Scene1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/scenes/Scene1.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/scenes/Scene1.cpp.obj
 .PHONY : src/scenes/Scene1.cpp.obj
 
 src/scenes/Scene1.i: src/scenes/Scene1.cpp.i
@@ -477,7 +477,7 @@ src/scenes/Scene1.i: src/scenes/Scene1.cpp.i
 
 # target to preprocess a source file
 src/scenes/Scene1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/scenes/Scene1.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/scenes/Scene1.cpp.i
 .PHONY : src/scenes/Scene1.cpp.i
 
 src/scenes/Scene1.s: src/scenes/Scene1.cpp.s
@@ -485,7 +485,7 @@ src/scenes/Scene1.s: src/scenes/Scene1.cpp.s
 
 # target to generate assembly for a file
 src/scenes/Scene1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/scenes/Scene1.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/scenes/Scene1.cpp.s
 .PHONY : src/scenes/Scene1.cpp.s
 
 src/screen/InputManager.obj: src/screen/InputManager.cpp.obj
@@ -493,7 +493,7 @@ src/screen/InputManager.obj: src/screen/InputManager.cpp.obj
 
 # target to build an object file
 src/screen/InputManager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/screen/InputManager.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/screen/InputManager.cpp.obj
 .PHONY : src/screen/InputManager.cpp.obj
 
 src/screen/InputManager.i: src/screen/InputManager.cpp.i
@@ -501,7 +501,7 @@ src/screen/InputManager.i: src/screen/InputManager.cpp.i
 
 # target to preprocess a source file
 src/screen/InputManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/screen/InputManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/screen/InputManager.cpp.i
 .PHONY : src/screen/InputManager.cpp.i
 
 src/screen/InputManager.s: src/screen/InputManager.cpp.s
@@ -509,7 +509,7 @@ src/screen/InputManager.s: src/screen/InputManager.cpp.s
 
 # target to generate assembly for a file
 src/screen/InputManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/screen/InputManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/screen/InputManager.cpp.s
 .PHONY : src/screen/InputManager.cpp.s
 
 src/screen/Screen.obj: src/screen/Screen.cpp.obj
@@ -517,7 +517,7 @@ src/screen/Screen.obj: src/screen/Screen.cpp.obj
 
 # target to build an object file
 src/screen/Screen.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/screen/Screen.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/screen/Screen.cpp.obj
 .PHONY : src/screen/Screen.cpp.obj
 
 src/screen/Screen.i: src/screen/Screen.cpp.i
@@ -525,7 +525,7 @@ src/screen/Screen.i: src/screen/Screen.cpp.i
 
 # target to preprocess a source file
 src/screen/Screen.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/screen/Screen.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/screen/Screen.cpp.i
 .PHONY : src/screen/Screen.cpp.i
 
 src/screen/Screen.s: src/screen/Screen.cpp.s
@@ -533,7 +533,7 @@ src/screen/Screen.s: src/screen/Screen.cpp.s
 
 # target to generate assembly for a file
 src/screen/Screen.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/screen/Screen.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/screen/Screen.cpp.s
 .PHONY : src/screen/Screen.cpp.s
 
 src/shaders/FragmentShader.obj: src/shaders/FragmentShader.cpp.obj
@@ -541,7 +541,7 @@ src/shaders/FragmentShader.obj: src/shaders/FragmentShader.cpp.obj
 
 # target to build an object file
 src/shaders/FragmentShader.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/shaders/FragmentShader.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/shaders/FragmentShader.cpp.obj
 .PHONY : src/shaders/FragmentShader.cpp.obj
 
 src/shaders/FragmentShader.i: src/shaders/FragmentShader.cpp.i
@@ -549,7 +549,7 @@ src/shaders/FragmentShader.i: src/shaders/FragmentShader.cpp.i
 
 # target to preprocess a source file
 src/shaders/FragmentShader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/shaders/FragmentShader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/shaders/FragmentShader.cpp.i
 .PHONY : src/shaders/FragmentShader.cpp.i
 
 src/shaders/FragmentShader.s: src/shaders/FragmentShader.cpp.s
@@ -557,7 +557,7 @@ src/shaders/FragmentShader.s: src/shaders/FragmentShader.cpp.s
 
 # target to generate assembly for a file
 src/shaders/FragmentShader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/shaders/FragmentShader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/shaders/FragmentShader.cpp.s
 .PHONY : src/shaders/FragmentShader.cpp.s
 
 src/shaders/Shader.obj: src/shaders/Shader.cpp.obj
@@ -565,7 +565,7 @@ src/shaders/Shader.obj: src/shaders/Shader.cpp.obj
 
 # target to build an object file
 src/shaders/Shader.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/shaders/Shader.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/shaders/Shader.cpp.obj
 .PHONY : src/shaders/Shader.cpp.obj
 
 src/shaders/Shader.i: src/shaders/Shader.cpp.i
@@ -573,7 +573,7 @@ src/shaders/Shader.i: src/shaders/Shader.cpp.i
 
 # target to preprocess a source file
 src/shaders/Shader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/shaders/Shader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/shaders/Shader.cpp.i
 .PHONY : src/shaders/Shader.cpp.i
 
 src/shaders/Shader.s: src/shaders/Shader.cpp.s
@@ -581,7 +581,7 @@ src/shaders/Shader.s: src/shaders/Shader.cpp.s
 
 # target to generate assembly for a file
 src/shaders/Shader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/shaders/Shader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/shaders/Shader.cpp.s
 .PHONY : src/shaders/Shader.cpp.s
 
 src/shaders/VertexShader.obj: src/shaders/VertexShader.cpp.obj
@@ -589,7 +589,7 @@ src/shaders/VertexShader.obj: src/shaders/VertexShader.cpp.obj
 
 # target to build an object file
 src/shaders/VertexShader.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/shaders/VertexShader.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/shaders/VertexShader.cpp.obj
 .PHONY : src/shaders/VertexShader.cpp.obj
 
 src/shaders/VertexShader.i: src/shaders/VertexShader.cpp.i
@@ -597,7 +597,7 @@ src/shaders/VertexShader.i: src/shaders/VertexShader.cpp.i
 
 # target to preprocess a source file
 src/shaders/VertexShader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/shaders/VertexShader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/shaders/VertexShader.cpp.i
 .PHONY : src/shaders/VertexShader.cpp.i
 
 src/shaders/VertexShader.s: src/shaders/VertexShader.cpp.s
@@ -605,7 +605,7 @@ src/shaders/VertexShader.s: src/shaders/VertexShader.cpp.s
 
 # target to generate assembly for a file
 src/shaders/VertexShader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/shaders/VertexShader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/shaders/VertexShader.cpp.s
 .PHONY : src/shaders/VertexShader.cpp.s
 
 src/systems/RenderSystem.obj: src/systems/RenderSystem.cpp.obj
@@ -613,7 +613,7 @@ src/systems/RenderSystem.obj: src/systems/RenderSystem.cpp.obj
 
 # target to build an object file
 src/systems/RenderSystem.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/systems/RenderSystem.cpp.obj
 .PHONY : src/systems/RenderSystem.cpp.obj
 
 src/systems/RenderSystem.i: src/systems/RenderSystem.cpp.i
@@ -621,7 +621,7 @@ src/systems/RenderSystem.i: src/systems/RenderSystem.cpp.i
 
 # target to preprocess a source file
 src/systems/RenderSystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/systems/RenderSystem.cpp.i
 .PHONY : src/systems/RenderSystem.cpp.i
 
 src/systems/RenderSystem.s: src/systems/RenderSystem.cpp.s
@@ -629,7 +629,7 @@ src/systems/RenderSystem.s: src/systems/RenderSystem.cpp.s
 
 # target to generate assembly for a file
 src/systems/RenderSystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/systems/RenderSystem.cpp.s
 .PHONY : src/systems/RenderSystem.cpp.s
 
 src/systems/TerrainSystem.obj: src/systems/TerrainSystem.cpp.obj
@@ -637,7 +637,7 @@ src/systems/TerrainSystem.obj: src/systems/TerrainSystem.cpp.obj
 
 # target to build an object file
 src/systems/TerrainSystem.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/TerrainSystem.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/systems/TerrainSystem.cpp.obj
 .PHONY : src/systems/TerrainSystem.cpp.obj
 
 src/systems/TerrainSystem.i: src/systems/TerrainSystem.cpp.i
@@ -645,7 +645,7 @@ src/systems/TerrainSystem.i: src/systems/TerrainSystem.cpp.i
 
 # target to preprocess a source file
 src/systems/TerrainSystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/TerrainSystem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/systems/TerrainSystem.cpp.i
 .PHONY : src/systems/TerrainSystem.cpp.i
 
 src/systems/TerrainSystem.s: src/systems/TerrainSystem.cpp.s
@@ -653,7 +653,7 @@ src/systems/TerrainSystem.s: src/systems/TerrainSystem.cpp.s
 
 # target to generate assembly for a file
 src/systems/TerrainSystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/TerrainSystem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/systems/TerrainSystem.cpp.s
 .PHONY : src/systems/TerrainSystem.cpp.s
 
 src/systems/TransformSystem.obj: src/systems/TransformSystem.cpp.obj
@@ -661,7 +661,7 @@ src/systems/TransformSystem.obj: src/systems/TransformSystem.cpp.obj
 
 # target to build an object file
 src/systems/TransformSystem.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/systems/TransformSystem.cpp.obj
 .PHONY : src/systems/TransformSystem.cpp.obj
 
 src/systems/TransformSystem.i: src/systems/TransformSystem.cpp.i
@@ -669,7 +669,7 @@ src/systems/TransformSystem.i: src/systems/TransformSystem.cpp.i
 
 # target to preprocess a source file
 src/systems/TransformSystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/systems/TransformSystem.cpp.i
 .PHONY : src/systems/TransformSystem.cpp.i
 
 src/systems/TransformSystem.s: src/systems/TransformSystem.cpp.s
@@ -677,7 +677,7 @@ src/systems/TransformSystem.s: src/systems/TransformSystem.cpp.s
 
 # target to generate assembly for a file
 src/systems/TransformSystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/systems/TransformSystem.cpp.s
 .PHONY : src/systems/TransformSystem.cpp.s
 
 src/systems/VelocitySystem.obj: src/systems/VelocitySystem.cpp.obj
@@ -685,7 +685,7 @@ src/systems/VelocitySystem.obj: src/systems/VelocitySystem.cpp.obj
 
 # target to build an object file
 src/systems/VelocitySystem.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/systems/VelocitySystem.cpp.obj
 .PHONY : src/systems/VelocitySystem.cpp.obj
 
 src/systems/VelocitySystem.i: src/systems/VelocitySystem.cpp.i
@@ -693,7 +693,7 @@ src/systems/VelocitySystem.i: src/systems/VelocitySystem.cpp.i
 
 # target to preprocess a source file
 src/systems/VelocitySystem.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/systems/VelocitySystem.cpp.i
 .PHONY : src/systems/VelocitySystem.cpp.i
 
 src/systems/VelocitySystem.s: src/systems/VelocitySystem.cpp.s
@@ -701,7 +701,7 @@ src/systems/VelocitySystem.s: src/systems/VelocitySystem.cpp.s
 
 # target to generate assembly for a file
 src/systems/VelocitySystem.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X.dir\build.make CMakeFiles/F0X.dir/src/systems/VelocitySystem.cpp.s
 .PHONY : src/systems/VelocitySystem.cpp.s
 
 # Help Target
@@ -712,7 +712,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... F0X-win
+	@echo ... F0X
 	@echo ... src/Managers/ShaderManager.obj
 	@echo ... src/Managers/ShaderManager.i
 	@echo ... src/Managers/ShaderManager.s
