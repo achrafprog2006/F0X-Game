@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\F0X-win.dir/objects.a
-C:\MinGW\bin\ar.exe qc CMakeFiles\F0X-win.dir/objects.a @CMakeFiles\F0X-win.dir\objects1.rsp
-C:\MinGW\bin\c++.exe -static-libgcc -static-libstdc++ -Wl,--whole-archive CMakeFiles\F0X-win.dir/objects.a -Wl,--no-whole-archive -o F0X-win.exe -Wl,--out-implib,C:\Users\hp\Desktop\app\F0X-Game\bin\libF0X-win.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\F0X-win.dir\linkLibs.rsp

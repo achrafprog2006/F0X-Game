@@ -1,3 +1,0 @@
-C:/Users/hp/Desktop/app/F0X-Game/build/CMakeFiles/F0X.dir
-C:/Users/hp/Desktop/app/F0X-Game/build/CMakeFiles/edit_cache.dir
-C:/Users/hp/Desktop/app/F0X-Game/build/CMakeFiles/rebuild_cache.dir
