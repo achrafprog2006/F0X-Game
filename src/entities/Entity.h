@@ -5,6 +5,8 @@
 #include"../components/Transform.hpp"
 #include"../components/Velocity.hpp"
 #include"../components/Terrain.hpp"
+#include"../components/Model.hpp"
+
 #include"../shaders/Shader.h"
 
 class Entity
@@ -17,13 +19,12 @@ public:
 	Entity(int id, const std::string& tag);
 	~Entity();
 
-	//std::shared_ptr<Model> Cmodel;
+    std::shared_ptr<Model> Cmodel;
 	std::shared_ptr<Shader> Cshader;
 	std::shared_ptr<StaticMesh> CstaticMesh;
 
 	std::shared_ptr<Transform> Ctransform;
 	std::shared_ptr<Velocity> Cvelocity;
-	//std::shared_ptr<Model> Cmodel;
 
 	std::shared_ptr<Terrain> Cterrain;
 

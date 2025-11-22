@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/Users/hp/Desktop/app/F0X-Game/src/Managers/ShaderManager.cpp" "CMakeFiles/F0X-win.dir/src/Managers/ShaderManager.cpp.obj" "gcc" "CMakeFiles/F0X-win.dir/src/Managers/ShaderManager.cpp.obj.d"
   "C:/Users/hp/Desktop/app/F0X-Game/src/Managers/TextureManager.cpp" "CMakeFiles/F0X-win.dir/src/Managers/TextureManager.cpp.obj" "gcc" "CMakeFiles/F0X-win.dir/src/Managers/TextureManager.cpp.obj.d"
   "C:/Users/hp/Desktop/app/F0X-Game/src/components/Mesh.cpp" "CMakeFiles/F0X-win.dir/src/components/Mesh.cpp.obj" "gcc" "CMakeFiles/F0X-win.dir/src/components/Mesh.cpp.obj.d"
+  "C:/Users/hp/Desktop/app/F0X-Game/src/components/Model.cpp" "CMakeFiles/F0X-win.dir/src/components/Model.cpp.obj" "gcc" "CMakeFiles/F0X-win.dir/src/components/Model.cpp.obj.d"
   "C:/Users/hp/Desktop/app/F0X-Game/src/entities/Camera.cpp" "CMakeFiles/F0X-win.dir/src/entities/Camera.cpp.obj" "gcc" "CMakeFiles/F0X-win.dir/src/entities/Camera.cpp.obj.d"
   "C:/Users/hp/Desktop/app/F0X-Game/src/entities/Entity.cpp" "CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj" "gcc" "CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj.d"
   "C:/Users/hp/Desktop/app/F0X-Game/src/entities/EntityManager.cpp" "CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj" "gcc" "CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj.d"

@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/F0X-win.dir/src/Managers/TextureManager.cpp.obj.d"
   "CMakeFiles/F0X-win.dir/src/components/Mesh.cpp.obj"
   "CMakeFiles/F0X-win.dir/src/components/Mesh.cpp.obj.d"
+  "CMakeFiles/F0X-win.dir/src/components/Model.cpp.obj"
+  "CMakeFiles/F0X-win.dir/src/components/Model.cpp.obj.d"
   "CMakeFiles/F0X-win.dir/src/entities/Camera.cpp.obj"
   "CMakeFiles/F0X-win.dir/src/entities/Camera.cpp.obj.d"
   "CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj"

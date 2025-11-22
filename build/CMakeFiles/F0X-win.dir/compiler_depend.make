@@ -828,6 +828,396 @@ CMakeFiles/F0X-win.dir/src/components/Mesh.cpp.obj: C:/Users/hp/Desktop/app/F0X-
   C:/Users/hp/Desktop/app/F0X-Game/src/shaders/VertexShader.h \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/Mesh.hpp
 
+CMakeFiles/F0X-win.dir/src/components/Model.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/components/Model.cpp \
+  C:/MinGW/include/_mingw.h \
+  C:/MinGW/include/_mingw_mac.h \
+  C:/MinGW/include/_mingw_off_t.h \
+  C:/MinGW/include/_mingw_secapi.h \
+  C:/MinGW/include/_mingw_stat64.h \
+  C:/MinGW/include/_timeval.h \
+  C:/MinGW/include/assert.h \
+  C:/MinGW/include/corecrt.h \
+  C:/MinGW/include/corecrt_startup.h \
+  C:/MinGW/include/corecrt_stdio_config.h \
+  C:/MinGW/include/corecrt_wctype.h \
+  C:/MinGW/include/corecrt_wstdlib.h \
+  C:/MinGW/include/crtdefs.h \
+  C:/MinGW/include/ctype.h \
+  C:/MinGW/include/errno.h \
+  C:/MinGW/include/float.h \
+  C:/MinGW/include/limits.h \
+  C:/MinGW/include/locale.h \
+  C:/MinGW/include/malloc.h \
+  C:/MinGW/include/math.h \
+  C:/MinGW/include/process.h \
+  C:/MinGW/include/pthread.h \
+  C:/MinGW/include/pthread_compat.h \
+  C:/MinGW/include/pthread_signal.h \
+  C:/MinGW/include/pthread_time.h \
+  C:/MinGW/include/pthread_unistd.h \
+  C:/MinGW/include/sched.h \
+  C:/MinGW/include/sdks/_mingw_ddk.h \
+  C:/MinGW/include/sec_api/stdio_s.h \
+  C:/MinGW/include/sec_api/stdlib_s.h \
+  C:/MinGW/include/sec_api/string_s.h \
+  C:/MinGW/include/sec_api/sys/timeb_s.h \
+  C:/MinGW/include/sec_api/wchar_s.h \
+  C:/MinGW/include/signal.h \
+  C:/MinGW/include/stddef.h \
+  C:/MinGW/include/stdint.h \
+  C:/MinGW/include/stdio.h \
+  C:/MinGW/include/stdlib.h \
+  C:/MinGW/include/string.h \
+  C:/MinGW/include/swprintf.inl \
+  C:/MinGW/include/sys/timeb.h \
+  C:/MinGW/include/sys/types.h \
+  C:/MinGW/include/time.h \
+  C:/MinGW/include/vadefs.h \
+  C:/MinGW/include/wchar.h \
+  C:/MinGW/include/wctype.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/algorithm \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/binders.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/algorithmfwd.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/align.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocated_ptr.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocator.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_lockfree_defines.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_ios.tcc \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/basic_string.tcc \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/char_traits.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/charconv.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/concept_check.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_forced.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/enable_special_members.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/erase_if.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_defines.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functexcept.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functional_hash.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hash_bytes.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hashtable.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hashtable_policy.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/invoke.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/istream.tcc \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.tcc \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.tcc \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/localefwd.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memory_resource.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/memoryfwd.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/move.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/nested_exception.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/new_allocator.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/node_handle.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.tcc \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream_insert.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/postypes.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/predefined_ops.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ptr_traits.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/range_access.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/refwrap.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/requires_hosted.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_atomic.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_base.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/specfun.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_abs.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algo.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_heap.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_funcs.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_map.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_multimap.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_pair.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_raw_storage_iter.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_tempbuf.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_tree.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_vector.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf.tcc \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf_iterator.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/string_view.tcc \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stringfwd.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uniform_int_dist.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unordered_set.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/vector.tcc \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cassert \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cctype \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cerrno \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cfloat \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/climits \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/clocale \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cmath \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/concepts \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstddef \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdint \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdio \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstring \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwchar \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwctype \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/debug/assertions.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/debug/debug.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/exception \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/aligned_buffer.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/alloc_traits.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/atomicity.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/concurrence.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/numeric_traits.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/string_conversions.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ext/type_traits.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/initializer_list \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ios \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iosfwd \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/iostream \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/istream \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/limits \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/map \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/memory \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/new \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/execution_defs.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_algorithm_defs.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_memory_defs.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/pstl_config.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/stdexcept \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/stdlib.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string_view \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/system_error \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tr1/bessel_function.tcc \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tr1/beta_function.tcc \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tr1/ell_integral.tcc \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tr1/exp_integral.tcc \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tr1/gamma.tcc \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tr1/hypergeometric.tcc \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tr1/legendre_function.tcc \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tr1/modified_bessel_func.tcc \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tr1/poly_hermite.tcc \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tr1/poly_laguerre.tcc \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tr1/riemann_zeta.tcc \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tr1/special_function_util.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/typeinfo \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/unordered_set \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/float.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stddef.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/KHR/khrplatform.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Compiler/poppack1.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Compiler/pushpack1.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Importer.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/MathFunctions.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/aabb.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/anim.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/camera.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/color4.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/color4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/config.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/defs.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/light.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/material.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/material.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix3x3.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix3x3.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix4x4.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix4x4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/mesh.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/metadata.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/postprocess.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/quaternion.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/quaternion.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/scene.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/texture.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/types.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector2.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector2.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector3.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector3.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glad/glad.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/common.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/_fixes.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/_vectorize.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/compute_common.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/compute_vector_relational.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/func_common.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/func_exponential.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/func_geometric.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/func_integer.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/func_matrix.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/func_packing.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/func_trigonometric.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/func_vector_relational.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/qualifier.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/setup.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_half.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_half.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat2x2.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat2x2.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat2x3.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat2x3.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat2x4.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat2x4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat3x2.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat3x2.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat3x3.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat3x3.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat3x4.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat3x4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat4x2.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat4x2.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat4x3.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat4x3.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat4x4.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat4x4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_vec1.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_vec1.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_vec2.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_vec2.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_vec3.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_vec3.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_vec4.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_vec4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/exponential.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_double2x2.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_double2x2_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_double2x3.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_double2x3_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_double2x4.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_double2x4_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_double3x2.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_double3x2_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_double3x3.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_double3x3_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_double3x4.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_double3x4_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_double4x2.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_double4x2_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_double4x3.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_double4x3_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_double4x4.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_double4x4_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_float2x2.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_float2x2_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_float2x3.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_float2x3_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_float2x4.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_float2x4_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_float3x2.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_float3x2_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_float3x3.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_float3x3_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_float3x4.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_float3x4_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_float4x2.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_float4x2_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_float4x3.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_float4x3_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_float4x4.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_float4x4_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/scalar_int_sized.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/scalar_uint_sized.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_bool2.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_bool2_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_bool3.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_bool3_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_bool4.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_bool4_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_double2.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_double2_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_double3.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_double3_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_double4.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_double4_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_float2.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_float2_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_float3.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_float3_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_float4.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_float4_precision.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_int2.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_int2_sized.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_int3.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_int3_sized.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_int4.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_int4_sized.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_uint2.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_uint2_sized.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_uint3.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_uint3_sized.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_uint4.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_uint4_sized.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/fwd.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/geometric.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/glm.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/integer.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/mat2x2.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/mat2x3.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/mat2x4.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/mat3x2.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/mat3x3.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/mat3x4.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/mat4x2.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/mat4x3.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/mat4x4.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/matrix.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/packing.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/simd/platform.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/trigonometric.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/vec2.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/vec3.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/vec4.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/include/glm/vector_relational.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/src/Managers/TextureManager.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/src/openGL/Ebo.h \
+  C:/Users/hp/Desktop/app/F0X-Game/src/openGL/Texture.h \
+  C:/Users/hp/Desktop/app/F0X-Game/src/openGL/Vao.h \
+  C:/Users/hp/Desktop/app/F0X-Game/src/openGL/Vbo.h \
+  C:/Users/hp/Desktop/app/F0X-Game/src/shaders/FragmentShader.h \
+  C:/Users/hp/Desktop/app/F0X-Game/src/shaders/Shader.h \
+  C:/Users/hp/Desktop/app/F0X-Game/src/shaders/VertexShader.h \
+  C:/Users/hp/Desktop/app/F0X-Game/src/components/Mesh.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/src/components/Model.hpp
+
 CMakeFiles/F0X-win.dir/src/entities/Camera.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/entities/Camera.cpp \
   C:/MinGW/include/_mingw.h \
   C:/MinGW/include/_mingw_mac.h \
@@ -1220,6 +1610,7 @@ CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj: C:/Users/hp/Desktop/app/F0X-
   C:/MinGW/include/sdks/_mingw_ddk.h \
   C:/MinGW/include/sec_api/stdio_s.h \
   C:/MinGW/include/sec_api/stdlib_s.h \
+  C:/MinGW/include/sec_api/string_s.h \
   C:/MinGW/include/sec_api/sys/timeb_s.h \
   C:/MinGW/include/sec_api/wchar_s.h \
   C:/MinGW/include/signal.h \
@@ -1227,6 +1618,7 @@ CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj: C:/Users/hp/Desktop/app/F0X-
   C:/MinGW/include/stdint.h \
   C:/MinGW/include/stdio.h \
   C:/MinGW/include/stdlib.h \
+  C:/MinGW/include/string.h \
   C:/MinGW/include/swprintf.inl \
   C:/MinGW/include/sys/timeb.h \
   C:/MinGW/include/sys/types.h \
@@ -1234,9 +1626,11 @@ CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj: C:/Users/hp/Desktop/app/F0X-
   C:/MinGW/include/vadefs.h \
   C:/MinGW/include/wchar.h \
   C:/MinGW/include/wctype.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/algorithm \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/binders.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/algorithmfwd.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/align.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocated_ptr.h \
@@ -1253,12 +1647,16 @@ CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj: C:/Users/hp/Desktop/app/F0X-
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_forced.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/enable_special_members.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/erase_if.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_defines.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functexcept.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functional_hash.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hash_bytes.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hashtable.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hashtable_policy.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/invoke.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/istream.tcc \
@@ -1272,6 +1670,7 @@ CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj: C:/Users/hp/Desktop/app/F0X-
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/move.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/nested_exception.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/new_allocator.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/node_handle.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.tcc \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream_insert.h \
@@ -1286,10 +1685,12 @@ CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj: C:/Users/hp/Desktop/app/F0X-
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_base.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/specfun.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_abs.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algo.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_heap.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h \
@@ -1302,7 +1703,9 @@ CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj: C:/Users/hp/Desktop/app/F0X-
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf_iterator.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/string_view.tcc \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stringfwd.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uniform_int_dist.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unordered_set.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h \
@@ -1320,6 +1723,7 @@ CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj: C:/Users/hp/Desktop/app/F0X-
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdint \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdio \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstring \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwchar \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwctype \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/debug/assertions.h \
@@ -1342,6 +1746,7 @@ CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj: C:/Users/hp/Desktop/app/F0X-
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/new \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/execution_defs.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_algorithm_defs.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_memory_defs.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/pstl_config.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/stdexcept \
@@ -1365,6 +1770,7 @@ CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj: C:/Users/hp/Desktop/app/F0X-
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/typeinfo \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/unordered_set \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
@@ -1384,6 +1790,34 @@ CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj: C:/Users/hp/Desktop/app/F0X-
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   C:/Users/hp/Desktop/app/F0X-Game/include/KHR/khrplatform.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Compiler/poppack1.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Compiler/pushpack1.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/MathFunctions.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/aabb.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/anim.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/camera.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/color4.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/color4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/config.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/defs.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/light.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/material.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/material.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix3x3.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix3x3.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix4x4.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix4x4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/mesh.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/metadata.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/quaternion.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/quaternion.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/scene.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/texture.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/types.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector2.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector2.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector3.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector3.inl \
   C:/Users/hp/Desktop/app/F0X-Game/include/glad/glad.h \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/common.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/_fixes.hpp \
@@ -1530,6 +1964,8 @@ CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj: C:/Users/hp/Desktop/app/F0X-
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/vec3.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/vec4.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/vector_relational.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/src/components/Mesh.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/src/components/Model.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/StaticMesh.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/Terrain.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/Transform.hpp \
@@ -1574,6 +2010,7 @@ CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj: C:/Users/hp/Desktop/a
   C:/MinGW/include/sdks/_mingw_ddk.h \
   C:/MinGW/include/sec_api/stdio_s.h \
   C:/MinGW/include/sec_api/stdlib_s.h \
+  C:/MinGW/include/sec_api/string_s.h \
   C:/MinGW/include/sec_api/sys/timeb_s.h \
   C:/MinGW/include/sec_api/wchar_s.h \
   C:/MinGW/include/signal.h \
@@ -1581,6 +2018,7 @@ CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj: C:/Users/hp/Desktop/a
   C:/MinGW/include/stdint.h \
   C:/MinGW/include/stdio.h \
   C:/MinGW/include/stdlib.h \
+  C:/MinGW/include/string.h \
   C:/MinGW/include/swprintf.inl \
   C:/MinGW/include/sys/timeb.h \
   C:/MinGW/include/sys/types.h \
@@ -1588,9 +2026,11 @@ CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj: C:/Users/hp/Desktop/a
   C:/MinGW/include/vadefs.h \
   C:/MinGW/include/wchar.h \
   C:/MinGW/include/wctype.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/algorithm \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/binders.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/algorithmfwd.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/align.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocated_ptr.h \
@@ -1607,12 +2047,16 @@ CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj: C:/Users/hp/Desktop/a
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_forced.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/enable_special_members.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/erase_if.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_defines.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functexcept.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functional_hash.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hash_bytes.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hashtable.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hashtable_policy.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/invoke.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/istream.tcc \
@@ -1626,6 +2070,7 @@ CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj: C:/Users/hp/Desktop/a
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/move.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/nested_exception.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/new_allocator.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/node_handle.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.tcc \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream_insert.h \
@@ -1640,10 +2085,12 @@ CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj: C:/Users/hp/Desktop/a
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_base.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/specfun.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_abs.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algo.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_heap.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h \
@@ -1656,7 +2103,9 @@ CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj: C:/Users/hp/Desktop/a
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf_iterator.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/string_view.tcc \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stringfwd.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uniform_int_dist.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unordered_set.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h \
@@ -1674,6 +2123,7 @@ CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj: C:/Users/hp/Desktop/a
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdint \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdio \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstring \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwchar \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwctype \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/debug/assertions.h \
@@ -1696,6 +2146,7 @@ CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj: C:/Users/hp/Desktop/a
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/new \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/execution_defs.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_algorithm_defs.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_memory_defs.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/pstl_config.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/stdexcept \
@@ -1719,6 +2170,7 @@ CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj: C:/Users/hp/Desktop/a
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/typeinfo \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/unordered_set \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
@@ -1738,6 +2190,34 @@ CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj: C:/Users/hp/Desktop/a
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   C:/Users/hp/Desktop/app/F0X-Game/include/KHR/khrplatform.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Compiler/poppack1.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Compiler/pushpack1.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/MathFunctions.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/aabb.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/anim.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/camera.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/color4.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/color4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/config.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/defs.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/light.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/material.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/material.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix3x3.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix3x3.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix4x4.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix4x4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/mesh.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/metadata.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/quaternion.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/quaternion.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/scene.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/texture.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/types.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector2.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector2.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector3.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector3.inl \
   C:/Users/hp/Desktop/app/F0X-Game/include/glad/glad.h \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/common.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/_fixes.hpp \
@@ -1884,6 +2364,8 @@ CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj: C:/Users/hp/Desktop/a
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/vec3.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/vec4.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/vector_relational.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/src/components/Mesh.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/src/components/Model.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/StaticMesh.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/Terrain.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/Transform.hpp \
@@ -1929,6 +2411,7 @@ CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.obj: C:/Users/hp/Desktop/ap
   C:/MinGW/include/sdks/_mingw_ddk.h \
   C:/MinGW/include/sec_api/stdio_s.h \
   C:/MinGW/include/sec_api/stdlib_s.h \
+  C:/MinGW/include/sec_api/string_s.h \
   C:/MinGW/include/sec_api/sys/timeb_s.h \
   C:/MinGW/include/sec_api/wchar_s.h \
   C:/MinGW/include/signal.h \
@@ -1936,6 +2419,7 @@ CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.obj: C:/Users/hp/Desktop/ap
   C:/MinGW/include/stdint.h \
   C:/MinGW/include/stdio.h \
   C:/MinGW/include/stdlib.h \
+  C:/MinGW/include/string.h \
   C:/MinGW/include/swprintf.inl \
   C:/MinGW/include/sys/timeb.h \
   C:/MinGW/include/sys/types.h \
@@ -1943,9 +2427,11 @@ CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.obj: C:/Users/hp/Desktop/ap
   C:/MinGW/include/vadefs.h \
   C:/MinGW/include/wchar.h \
   C:/MinGW/include/wctype.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/algorithm \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/binders.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/algorithmfwd.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/align.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocated_ptr.h \
@@ -2003,10 +2489,12 @@ CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.obj: C:/Users/hp/Desktop/ap
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/specfun.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_abs.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_thread.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algo.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_heap.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h \
@@ -2020,8 +2508,10 @@ CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.obj: C:/Users/hp/Desktop/ap
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/string_view.tcc \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stringfwd.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/this_thread_sleep.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uniform_int_dist.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unordered_map.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unordered_set.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h \
@@ -2040,6 +2530,7 @@ CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.obj: C:/Users/hp/Desktop/ap
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdint \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdio \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstring \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ctime \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwchar \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwctype \
@@ -2063,6 +2554,7 @@ CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.obj: C:/Users/hp/Desktop/ap
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/new \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/execution_defs.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_algorithm_defs.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_memory_defs.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/pstl_config.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ratio \
@@ -2089,6 +2581,7 @@ CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.obj: C:/Users/hp/Desktop/ap
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/typeinfo \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/unordered_map \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/unordered_set \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
@@ -2109,6 +2602,34 @@ CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.obj: C:/Users/hp/Desktop/ap
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   C:/Users/hp/Desktop/app/F0X-Game/include/GLFW/glfw3.h \
   C:/Users/hp/Desktop/app/F0X-Game/include/KHR/khrplatform.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Compiler/poppack1.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Compiler/pushpack1.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/MathFunctions.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/aabb.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/anim.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/camera.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/color4.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/color4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/config.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/defs.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/light.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/material.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/material.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix3x3.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix3x3.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix4x4.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix4x4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/mesh.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/metadata.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/quaternion.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/quaternion.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/scene.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/texture.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/types.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector2.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector2.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector3.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector3.inl \
   C:/Users/hp/Desktop/app/F0X-Game/include/glad/glad.h \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/common.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/_fixes.hpp \
@@ -2255,6 +2776,8 @@ CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.obj: C:/Users/hp/Desktop/ap
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/vec3.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/vec4.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/vector_relational.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/src/components/Mesh.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/src/components/Model.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/StaticMesh.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/Terrain.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/Transform.hpp \
@@ -2619,9 +3142,11 @@ CMakeFiles/F0X-win.dir/src/main.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/ma
   C:/MinGW/include/vadefs.h \
   C:/MinGW/include/wchar.h \
   C:/MinGW/include/wctype.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/algorithm \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/binders.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/algorithmfwd.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/align.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocated_ptr.h \
@@ -2679,10 +3204,12 @@ CMakeFiles/F0X-win.dir/src/main.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/ma
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/specfun.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_abs.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_thread.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algo.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_heap.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h \
@@ -2696,8 +3223,10 @@ CMakeFiles/F0X-win.dir/src/main.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/ma
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/string_view.tcc \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stringfwd.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/this_thread_sleep.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uniform_int_dist.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unordered_map.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unordered_set.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h \
@@ -2716,6 +3245,7 @@ CMakeFiles/F0X-win.dir/src/main.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/ma
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdint \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdio \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstring \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ctime \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwchar \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwctype \
@@ -2740,6 +3270,7 @@ CMakeFiles/F0X-win.dir/src/main.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/ma
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/new \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/execution_defs.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_algorithm_defs.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_memory_defs.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/pstl_config.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ratio \
@@ -2766,6 +3297,7 @@ CMakeFiles/F0X-win.dir/src/main.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/ma
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/typeinfo \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/unordered_map \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/unordered_set \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
@@ -2790,6 +3322,34 @@ CMakeFiles/F0X-win.dir/src/main.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/ma
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xmmintrin.h \
   C:/Users/hp/Desktop/app/F0X-Game/include/GLFW/glfw3.h \
   C:/Users/hp/Desktop/app/F0X-Game/include/KHR/khrplatform.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Compiler/poppack1.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Compiler/pushpack1.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/MathFunctions.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/aabb.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/anim.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/camera.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/color4.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/color4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/config.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/defs.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/light.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/material.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/material.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix3x3.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix3x3.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix4x4.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix4x4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/mesh.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/metadata.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/quaternion.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/quaternion.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/scene.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/texture.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/types.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector2.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector2.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector3.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector3.inl \
   C:/Users/hp/Desktop/app/F0X-Game/include/glad/glad.h \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/common.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/_fixes.hpp \
@@ -2937,6 +3497,8 @@ CMakeFiles/F0X-win.dir/src/main.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/ma
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/vec4.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/vector_relational.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/stb/stb_image.h \
+  C:/Users/hp/Desktop/app/F0X-Game/src/components/Mesh.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/src/components/Model.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/StaticMesh.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/Terrain.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/Transform.hpp \
@@ -3614,6 +4176,7 @@ CMakeFiles/F0X-win.dir/src/scenes/Scene1.cpp.obj: C:/Users/hp/Desktop/app/F0X-Ga
   C:/MinGW/include/sdks/_mingw_ddk.h \
   C:/MinGW/include/sec_api/stdio_s.h \
   C:/MinGW/include/sec_api/stdlib_s.h \
+  C:/MinGW/include/sec_api/string_s.h \
   C:/MinGW/include/sec_api/sys/timeb_s.h \
   C:/MinGW/include/sec_api/wchar_s.h \
   C:/MinGW/include/signal.h \
@@ -3621,6 +4184,7 @@ CMakeFiles/F0X-win.dir/src/scenes/Scene1.cpp.obj: C:/Users/hp/Desktop/app/F0X-Ga
   C:/MinGW/include/stdint.h \
   C:/MinGW/include/stdio.h \
   C:/MinGW/include/stdlib.h \
+  C:/MinGW/include/string.h \
   C:/MinGW/include/swprintf.inl \
   C:/MinGW/include/sys/timeb.h \
   C:/MinGW/include/sys/types.h \
@@ -3715,6 +4279,7 @@ CMakeFiles/F0X-win.dir/src/scenes/Scene1.cpp.obj: C:/Users/hp/Desktop/app/F0X-Ga
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uniform_int_dist.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unordered_map.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unordered_set.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h \
@@ -3733,6 +4298,7 @@ CMakeFiles/F0X-win.dir/src/scenes/Scene1.cpp.obj: C:/Users/hp/Desktop/app/F0X-Ga
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdint \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdio \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstring \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ctime \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwchar \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwctype \
@@ -3784,6 +4350,7 @@ CMakeFiles/F0X-win.dir/src/scenes/Scene1.cpp.obj: C:/Users/hp/Desktop/app/F0X-Ga
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/typeinfo \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/unordered_map \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/unordered_set \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
@@ -3804,6 +4371,34 @@ CMakeFiles/F0X-win.dir/src/scenes/Scene1.cpp.obj: C:/Users/hp/Desktop/app/F0X-Ga
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   C:/Users/hp/Desktop/app/F0X-Game/include/GLFW/glfw3.h \
   C:/Users/hp/Desktop/app/F0X-Game/include/KHR/khrplatform.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Compiler/poppack1.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Compiler/pushpack1.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/MathFunctions.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/aabb.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/anim.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/camera.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/color4.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/color4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/config.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/defs.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/light.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/material.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/material.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix3x3.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix3x3.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix4x4.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix4x4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/mesh.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/metadata.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/quaternion.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/quaternion.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/scene.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/texture.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/types.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector2.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector2.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector3.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector3.inl \
   C:/Users/hp/Desktop/app/F0X-Game/include/glad/glad.h \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/common.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/_fixes.hpp \
@@ -3953,6 +4548,8 @@ CMakeFiles/F0X-win.dir/src/scenes/Scene1.cpp.obj: C:/Users/hp/Desktop/app/F0X-Ga
   C:/Users/hp/Desktop/app/F0X-Game/include/stb/stb_image.h \
   C:/Users/hp/Desktop/app/F0X-Game/src/Managers/ShaderManager.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/Managers/TextureManager.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/src/components/Mesh.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/src/components/Model.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/StaticMesh.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/Terrain.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/Transform.hpp \
@@ -5575,6 +6172,7 @@ CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.obj: C:/Users/hp/Desktop/app
   C:/MinGW/include/sdks/_mingw_ddk.h \
   C:/MinGW/include/sec_api/stdio_s.h \
   C:/MinGW/include/sec_api/stdlib_s.h \
+  C:/MinGW/include/sec_api/string_s.h \
   C:/MinGW/include/sec_api/sys/timeb_s.h \
   C:/MinGW/include/sec_api/wchar_s.h \
   C:/MinGW/include/signal.h \
@@ -5582,6 +6180,7 @@ CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.obj: C:/Users/hp/Desktop/app
   C:/MinGW/include/stdint.h \
   C:/MinGW/include/stdio.h \
   C:/MinGW/include/stdlib.h \
+  C:/MinGW/include/string.h \
   C:/MinGW/include/swprintf.inl \
   C:/MinGW/include/sys/timeb.h \
   C:/MinGW/include/sys/types.h \
@@ -5589,9 +6188,11 @@ CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.obj: C:/Users/hp/Desktop/app
   C:/MinGW/include/vadefs.h \
   C:/MinGW/include/wchar.h \
   C:/MinGW/include/wctype.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/algorithm \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/binders.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/algorithmfwd.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/align.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocated_ptr.h \
@@ -5608,6 +6209,7 @@ CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.obj: C:/Users/hp/Desktop/app
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_forced.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/enable_special_members.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/erase_if.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_defines.h \
@@ -5615,6 +6217,8 @@ CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.obj: C:/Users/hp/Desktop/app
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functexcept.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functional_hash.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hash_bytes.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hashtable.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hashtable_policy.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/invoke.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/istream.tcc \
@@ -5643,10 +6247,12 @@ CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.obj: C:/Users/hp/Desktop/app
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_base.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/specfun.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_abs.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algo.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_heap.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h \
@@ -5662,7 +6268,9 @@ CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.obj: C:/Users/hp/Desktop/app
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf_iterator.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/string_view.tcc \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stringfwd.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uniform_int_dist.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unordered_set.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h \
@@ -5680,6 +6288,7 @@ CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.obj: C:/Users/hp/Desktop/app
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdint \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdio \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstring \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwchar \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwctype \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/debug/assertions.h \
@@ -5703,6 +6312,7 @@ CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.obj: C:/Users/hp/Desktop/app
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/new \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/execution_defs.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_algorithm_defs.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_memory_defs.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/pstl_config.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/stdexcept \
@@ -5726,6 +6336,7 @@ CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.obj: C:/Users/hp/Desktop/app
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/typeinfo \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/unordered_set \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
@@ -5745,6 +6356,34 @@ CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.obj: C:/Users/hp/Desktop/app
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   C:/Users/hp/Desktop/app/F0X-Game/include/KHR/khrplatform.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Compiler/poppack1.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Compiler/pushpack1.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/MathFunctions.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/aabb.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/anim.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/camera.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/color4.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/color4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/config.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/defs.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/light.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/material.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/material.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix3x3.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix3x3.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix4x4.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix4x4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/mesh.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/metadata.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/quaternion.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/quaternion.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/scene.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/texture.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/types.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector2.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector2.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector3.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector3.inl \
   C:/Users/hp/Desktop/app/F0X-Game/include/glad/glad.h \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/common.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/_fixes.hpp \
@@ -5892,6 +6531,8 @@ CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.obj: C:/Users/hp/Desktop/app
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/vec4.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/vector_relational.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/Managers/ShaderManager.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/src/components/Mesh.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/src/components/Model.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/StaticMesh.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/Terrain.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/Transform.hpp \
@@ -5937,6 +6578,7 @@ CMakeFiles/F0X-win.dir/src/systems/TerrainSystem.cpp.obj: C:/Users/hp/Desktop/ap
   C:/MinGW/include/sdks/_mingw_ddk.h \
   C:/MinGW/include/sec_api/stdio_s.h \
   C:/MinGW/include/sec_api/stdlib_s.h \
+  C:/MinGW/include/sec_api/string_s.h \
   C:/MinGW/include/sec_api/sys/timeb_s.h \
   C:/MinGW/include/sec_api/wchar_s.h \
   C:/MinGW/include/signal.h \
@@ -5944,6 +6586,7 @@ CMakeFiles/F0X-win.dir/src/systems/TerrainSystem.cpp.obj: C:/Users/hp/Desktop/ap
   C:/MinGW/include/stdint.h \
   C:/MinGW/include/stdio.h \
   C:/MinGW/include/stdlib.h \
+  C:/MinGW/include/string.h \
   C:/MinGW/include/swprintf.inl \
   C:/MinGW/include/sys/timeb.h \
   C:/MinGW/include/sys/types.h \
@@ -5972,12 +6615,16 @@ CMakeFiles/F0X-win.dir/src/systems/TerrainSystem.cpp.obj: C:/Users/hp/Desktop/ap
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_forced.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/enable_special_members.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/erase_if.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_defines.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functexcept.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functional_hash.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hash_bytes.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hashtable.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hashtable_policy.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/invoke.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/istream.tcc \
@@ -5991,6 +6638,7 @@ CMakeFiles/F0X-win.dir/src/systems/TerrainSystem.cpp.obj: C:/Users/hp/Desktop/ap
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/move.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/nested_exception.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/new_allocator.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/node_handle.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.tcc \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream_insert.h \
@@ -6025,6 +6673,7 @@ CMakeFiles/F0X-win.dir/src/systems/TerrainSystem.cpp.obj: C:/Users/hp/Desktop/ap
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stringfwd.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uniform_int_dist.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unordered_set.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h \
@@ -6042,6 +6691,7 @@ CMakeFiles/F0X-win.dir/src/systems/TerrainSystem.cpp.obj: C:/Users/hp/Desktop/ap
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdint \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdio \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstring \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwchar \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwctype \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/debug/assertions.h \
@@ -6088,6 +6738,7 @@ CMakeFiles/F0X-win.dir/src/systems/TerrainSystem.cpp.obj: C:/Users/hp/Desktop/ap
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/typeinfo \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/unordered_set \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
@@ -6107,6 +6758,34 @@ CMakeFiles/F0X-win.dir/src/systems/TerrainSystem.cpp.obj: C:/Users/hp/Desktop/ap
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   C:/Users/hp/Desktop/app/F0X-Game/include/KHR/khrplatform.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Compiler/poppack1.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Compiler/pushpack1.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/MathFunctions.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/aabb.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/anim.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/camera.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/color4.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/color4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/config.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/defs.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/light.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/material.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/material.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix3x3.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix3x3.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix4x4.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix4x4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/mesh.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/metadata.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/quaternion.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/quaternion.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/scene.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/texture.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/types.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector2.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector2.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector3.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector3.inl \
   C:/Users/hp/Desktop/app/F0X-Game/include/glad/glad.h \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/common.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/_fixes.hpp \
@@ -6253,6 +6932,8 @@ CMakeFiles/F0X-win.dir/src/systems/TerrainSystem.cpp.obj: C:/Users/hp/Desktop/ap
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/vec3.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/vec4.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/vector_relational.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/src/components/Mesh.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/src/components/Model.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/StaticMesh.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/Terrain.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/Transform.hpp \
@@ -6313,9 +6994,11 @@ CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.obj: C:/Users/hp/Desktop/
   C:/MinGW/include/vadefs.h \
   C:/MinGW/include/wchar.h \
   C:/MinGW/include/wctype.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/algorithm \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/binders.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/algorithmfwd.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/align.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocated_ptr.h \
@@ -6332,12 +7015,16 @@ CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.obj: C:/Users/hp/Desktop/
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_forced.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/enable_special_members.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/erase_if.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_defines.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functexcept.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functional_hash.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hash_bytes.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hashtable.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hashtable_policy.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/invoke.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/istream.tcc \
@@ -6351,6 +7038,7 @@ CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.obj: C:/Users/hp/Desktop/
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/move.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/nested_exception.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/new_allocator.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/node_handle.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.tcc \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream_insert.h \
@@ -6365,10 +7053,12 @@ CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.obj: C:/Users/hp/Desktop/
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_base.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/specfun.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_abs.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algo.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_heap.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h \
@@ -6381,7 +7071,9 @@ CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.obj: C:/Users/hp/Desktop/
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf_iterator.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/string_view.tcc \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stringfwd.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uniform_int_dist.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unordered_set.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h \
@@ -6422,6 +7114,7 @@ CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.obj: C:/Users/hp/Desktop/
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/new \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/execution_defs.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_algorithm_defs.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_memory_defs.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/pstl_config.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/stdexcept \
@@ -6445,6 +7138,7 @@ CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.obj: C:/Users/hp/Desktop/
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/typeinfo \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/unordered_set \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
@@ -6464,6 +7158,34 @@ CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.obj: C:/Users/hp/Desktop/
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   C:/Users/hp/Desktop/app/F0X-Game/include/KHR/khrplatform.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Compiler/poppack1.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Compiler/pushpack1.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/MathFunctions.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/aabb.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/anim.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/camera.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/color4.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/color4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/config.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/defs.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/light.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/material.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/material.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix3x3.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix3x3.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix4x4.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix4x4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/mesh.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/metadata.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/quaternion.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/quaternion.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/scene.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/texture.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/types.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector2.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector2.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector3.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector3.inl \
   C:/Users/hp/Desktop/app/F0X-Game/include/glad/glad.h \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/common.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/_fixes.hpp \
@@ -6652,6 +7374,8 @@ CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.obj: C:/Users/hp/Desktop/
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/vec3.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/vec4.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/vector_relational.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/src/components/Mesh.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/src/components/Model.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/StaticMesh.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/Terrain.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/Transform.hpp \
@@ -6697,6 +7421,7 @@ CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.obj: C:/Users/hp/Desktop/a
   C:/MinGW/include/sdks/_mingw_ddk.h \
   C:/MinGW/include/sec_api/stdio_s.h \
   C:/MinGW/include/sec_api/stdlib_s.h \
+  C:/MinGW/include/sec_api/string_s.h \
   C:/MinGW/include/sec_api/sys/timeb_s.h \
   C:/MinGW/include/sec_api/wchar_s.h \
   C:/MinGW/include/signal.h \
@@ -6704,6 +7429,7 @@ CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.obj: C:/Users/hp/Desktop/a
   C:/MinGW/include/stdint.h \
   C:/MinGW/include/stdio.h \
   C:/MinGW/include/stdlib.h \
+  C:/MinGW/include/string.h \
   C:/MinGW/include/swprintf.inl \
   C:/MinGW/include/sys/timeb.h \
   C:/MinGW/include/sys/types.h \
@@ -6711,9 +7437,11 @@ CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.obj: C:/Users/hp/Desktop/a
   C:/MinGW/include/vadefs.h \
   C:/MinGW/include/wchar.h \
   C:/MinGW/include/wctype.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/algorithm \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/auto_ptr.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/backward/binders.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bit \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/algorithmfwd.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/align.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/alloc_traits.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocated_ptr.h \
@@ -6730,12 +7458,16 @@ CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.obj: C:/Users/hp/Desktop/a
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cpp_type_traits.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_forced.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/cxxabi_init_exception.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/enable_special_members.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/erase_if.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_defines.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/exception_ptr.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functexcept.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/functional_hash.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hash_bytes.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hashtable.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/hashtable_policy.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/invoke.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/istream.tcc \
@@ -6749,6 +7481,7 @@ CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.obj: C:/Users/hp/Desktop/a
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/move.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/nested_exception.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/new_allocator.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/node_handle.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream.tcc \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ostream_insert.h \
@@ -6763,10 +7496,12 @@ CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.obj: C:/Users/hp/Desktop/a
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_base.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/specfun.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/std_abs.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algo.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algobase.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_bvector.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_construct.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_function.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_heap.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_funcs.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_iterator_base_types.h \
@@ -6779,7 +7514,9 @@ CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.obj: C:/Users/hp/Desktop/a
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/streambuf_iterator.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/string_view.tcc \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stringfwd.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uniform_int_dist.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unique_ptr.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unordered_set.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uses_allocator_args.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/utility.h \
@@ -6797,6 +7534,7 @@ CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.obj: C:/Users/hp/Desktop/a
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdint \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdio \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstdlib \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstring \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwchar \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cwctype \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/debug/assertions.h \
@@ -6819,6 +7557,7 @@ CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.obj: C:/Users/hp/Desktop/a
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/new \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostream \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/execution_defs.h \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_algorithm_defs.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_memory_defs.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/pstl_config.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/stdexcept \
@@ -6842,6 +7581,7 @@ CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.obj: C:/Users/hp/Desktop/a
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/type_traits \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/typeinfo \
+  C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/unordered_set \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/vector \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
@@ -6861,6 +7601,34 @@ CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.obj: C:/Users/hp/Desktop/a
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
   C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/syslimits.h \
   C:/Users/hp/Desktop/app/F0X-Game/include/KHR/khrplatform.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Compiler/poppack1.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Compiler/pushpack1.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/MathFunctions.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/aabb.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/anim.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/camera.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/color4.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/color4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/config.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/defs.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/light.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/material.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/material.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix3x3.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix3x3.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix4x4.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix4x4.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/mesh.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/metadata.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/quaternion.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/quaternion.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/scene.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/texture.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/types.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector2.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector2.inl \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector3.h \
+  C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector3.inl \
   C:/Users/hp/Desktop/app/F0X-Game/include/glad/glad.h \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/common.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/_fixes.hpp \
@@ -7007,6 +7775,8 @@ CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.obj: C:/Users/hp/Desktop/a
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/vec3.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/vec4.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/include/glm/vector_relational.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/src/components/Mesh.hpp \
+  C:/Users/hp/Desktop/app/F0X-Game/src/components/Model.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/StaticMesh.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/Terrain.hpp \
   C:/Users/hp/Desktop/app/F0X-Game/src/components/Transform.hpp \
@@ -7041,9 +7811,9 @@ C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/concep
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clwbintrin.h:
 
-C:/MinGW/include/_mingw_unicode.h:
-
 C:/MinGW/include/threadpoollegacyapiset.h:
+
+C:/MinGW/include/_mingw_unicode.h:
 
 C:/MinGW/include/sec_api/stdlib_s.h:
 
@@ -7071,8 +7841,6 @@ C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/string
 
 C:/MinGW/include/_mingw_off_t.h:
 
-C:/MinGW/include/sysinfoapi.h:
-
 C:/MinGW/include/_timeval.h:
 
 C:/MinGW/include/sdks/_mingw_ddk.h:
@@ -7093,6 +7861,8 @@ C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/emmintrin.
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocated_ptr.h:
 
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/defs.h:
+
 C:/MinGW/include/corecrt_startup.h:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/allocator.h:
@@ -7100,6 +7870,8 @@ C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/a
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/quaternion_trigonometric.inl:
 
 C:/MinGW/include/ctype.h:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix4x4.h:
 
 C:/Users/hp/Desktop/app/F0X-Game/src/systems/TerrainSystem.h:
 
@@ -7113,17 +7885,13 @@ C:/Users/hp/Desktop/app/F0X-Game/src/openGL/Ebo.cpp:
 
 C:/MinGW/include/corecrt_wctype.h:
 
-C:/Users/hp/Desktop/app/F0X-Game/src/systems/RenderSystem.h:
-
-C:/MinGW/include/unknwnbase.h:
-
 C:/MinGW/include/corecrt_wstdlib.h:
 
-C:/MinGW/include/time.h:
+C:/MinGW/include/crtdefs.h:
 
 C:/MinGW/include/sec_api/stralign_s.h:
 
-C:/MinGW/include/crtdefs.h:
+C:/MinGW/include/time.h:
 
 C:/MinGW/include/errno.h:
 
@@ -7175,9 +7943,11 @@ C:/MinGW/include/wchar.h:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_uninitialized.h:
 
-C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_vec1.hpp:
-
 C:/MinGW/include/pthread_compat.h:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/color4.h:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_vec1.hpp:
 
 C:/MinGW/include/process.h:
 
@@ -7215,6 +7985,8 @@ C:/Users/hp/Desktop/app/F0X-Game/include/glm/gtx/euler_angles.inl:
 
 C:/MinGW/include/sec_api/wchar_s.h:
 
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/light.h:
+
 C:/MinGW/include/sec_api/stdio_s.h:
 
 C:/MinGW/include/sec_api/sys/timeb_s.h:
@@ -7245,9 +8017,9 @@ C:/MinGW/include/wingdi.h:
 
 C:/MinGW/include/swprintf.inl:
 
-C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
-
 C:/MinGW/include/psdk_inc/_xmitfile.h:
+
+C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/atomic_base.h:
 
@@ -7266,6 +8038,8 @@ C:/MinGW/include/vadefs.h:
 C:/Users/hp/Desktop/app/F0X-Game/src/systems/VelocitySystem.h:
 
 C:/MinGW/include/stringapiset.h:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector3.inl:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/bmi2intrin.h:
 
@@ -7333,17 +8107,21 @@ C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/f
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/invoke.h:
 
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector3.h:
+
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ios_base.h:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/istream.tcc:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/limits:
 
-C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h:
-
 C:/MinGW/include/rpcsal.h:
 
+C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.h:
+
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_classes.tcc:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/mesh.h:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/locale_facets.h:
 
@@ -7379,9 +8157,9 @@ C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/h
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/prfchiintrin.h:
 
-C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/predefined_ops.h:
-
 C:/MinGW/include/rpc.h:
+
+C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/predefined_ops.h:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/ptr_traits.h:
 
@@ -7394,6 +8172,8 @@ C:/Users/hp/Desktop/app/F0X-Game/include/glm/gtc/matrix_transform.inl:
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/refwrap.h:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/requires_hosted.h:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Importer.hpp:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/shared_ptr_atomic.h:
 
@@ -7428,6 +8208,8 @@ C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/s
 C:/MinGW/include/psdk_inc/_socket_types.h:
 
 C:/MinGW/include/objbase.h:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/postprocess.h:
 
 C:/MinGW/include/minwindef.h:
 
@@ -7487,19 +8269,17 @@ C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_double3x4_precision.hpp:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_float4x4_precision.hpp:
 
-C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/algorithm:
-
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/version.h:
+
+C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/algorithm:
 
 C:/MinGW/include/consoleapi3.h:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_double4.hpp:
 
-C:/MinGW/include/stralign.h:
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/quaternion.h:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cassert:
-
-C:/MinGW/include/pshpack1.h:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cctype:
 
@@ -7513,13 +8293,15 @@ C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/ostrea
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/climits:
 
-C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat4x3.inl:
-
 C:/MinGW/include/utilapiset.h:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat4x3.inl:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/clocale:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/common.hpp:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Compiler/pushpack1.h:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/smmintrin.h:
 
@@ -7635,6 +8417,8 @@ C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_double3x2.hpp:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_float4x2.hpp:
 
+C:/Users/hp/Desktop/app/F0X-Game/src/components/Model.cpp:
+
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/streambuf:
 
 C:/MinGW/include/cguid.h:
@@ -7687,13 +8471,15 @@ C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_float3x2.hpp:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tr1/special_function_util.h:
 
-C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple:
-
-C:/MinGW/include/rpcdcep.h:
-
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/sstream.tcc:
 
 C:/MinGW/include/datetimeapi.h:
+
+C:/MinGW/include/rpcdcep.h:
+
+C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/tuple:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector2.h:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/typeinfo:
 
@@ -7711,12 +8497,6 @@ C:/MinGW/include/imm.h:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h:
 
-C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vp2intersectintrin.h:
-
-C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat4x3.hpp:
-
-C:/MinGW/include/rpcasync.h:
-
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vldqintrin.h:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h:
@@ -7724,6 +8504,12 @@ C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_clip_space.inl:
 
 C:/Users/hp/Desktop/app/F0X-Game/src/entities/Camera.h:
+
+C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vp2intersectintrin.h:
+
+C:/MinGW/include/rpcasync.h:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat4x3.hpp:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/c++io.h:
 
@@ -7737,9 +8523,13 @@ C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64
 
 C:/Users/hp/Desktop/app/F0X-Game/src/components/Mesh.cpp:
 
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/metadata.h:
+
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/x86_64-w64-mingw32/bits/gthr.h:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/anim.h:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/float.h:
 
@@ -7761,9 +8551,9 @@ C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/_fixes.hpp:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/scalar_constants.hpp:
 
-C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstring:
-
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/_vectorize.hpp:
+
+C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/cstring:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_double3x3.hpp:
 
@@ -7839,11 +8629,15 @@ C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat4x2.hpp:
 
 C:/Users/hp/Desktop/app/F0X-Game/src/entities/EntityManager.h:
 
+C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/algorithmfwd.h:
+
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat4x2.inl:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unordered_map.h:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/KHR/khrplatform.h:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/aabb.h:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat4x4.hpp:
 
@@ -7851,9 +8645,13 @@ C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_mat4x4.inl:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_vec1.inl:
 
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix4x4.inl:
+
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_vec2.hpp:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/exponential.hpp:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/material.inl:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_double2x2.hpp:
 
@@ -7923,25 +8721,17 @@ C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_bool4.hpp:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_double2.hpp:
 
+C:/MinGW/include/synchapi.h:
+
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_double3.hpp:
 
 C:/MinGW/include/nb30.h:
-
-C:/MinGW/include/synchapi.h:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_double4_precision.hpp:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_float2.hpp:
 
-C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clzerointrin.h:
-
-C:/MinGW/include/sal.h:
-
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_float2_precision.hpp:
-
-C:/MinGW/include/wincon.h:
-
-C:/MinGW/include/pshpack8.h:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/quaternion_trigonometric.hpp:
 
@@ -7949,19 +8739,19 @@ C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_float3.hpp:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/unordered_map:
 
-C:/MinGW/include/timeapi.h:
-
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_float3_precision.hpp:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_float4.hpp:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_float4_precision.hpp:
 
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/config.h:
+
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/sm4intrin.h:
 
-C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_int3.hpp:
-
 C:/MinGW/include/rpcnsip.h:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_int3.hpp:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_int3_sized.hpp:
 
@@ -8007,13 +8797,17 @@ C:/MinGW/include/fibersapi.h:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/glm.hpp:
 
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/material.h:
+
 C:/MinGW/include/minwinbase.h:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/integer.hpp:
 
-C:/Users/hp/Desktop/app/F0X-Game/include/glm/mat2x2.hpp:
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix3x3.h:
 
 C:/MinGW/include/rpcnsi.h:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/glm/mat2x2.hpp:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/mat2x3.hpp:
 
@@ -8039,15 +8833,9 @@ C:/Users/hp/Desktop/app/F0X-Game/include/glm/vec3.hpp:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/vector_relational.hpp:
 
-C:/Users/hp/Desktop/app/F0X-Game/src/shaders/FragmentShader.h:
-
 C:/MinGW/include/pshpack4.h:
 
-C:/Users/hp/Desktop/app/F0X-Game/src/screen/Screen.cpp:
-
-C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/immintrin.h:
-
-C:/MinGW/include/shellapi.h:
+C:/Users/hp/Desktop/app/F0X-Game/src/shaders/FragmentShader.h:
 
 C:/Users/hp/Desktop/app/F0X-Game/src/shaders/Shader.h:
 
@@ -8067,6 +8855,64 @@ C:/MinGW/include/wincrypt.h:
 
 C:/Users/hp/Desktop/app/F0X-Game/src/components/Mesh.hpp:
 
+C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/keylockerintrin.h:
+
+C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/hresetintrin.h:
+
+C:/MinGW/include/sec_api/string_s.h:
+
+C:/MinGW/include/string.h:
+
+C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algo.h:
+
+C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_heap.h:
+
+C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uniform_int_dist.h:
+
+C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/unordered_set.h:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/Compiler/poppack1.h:
+
+C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_algorithm_defs.h:
+
+C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/unordered_set:
+
+C:/MinGW/include/winioctl.h:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/MathFunctions.h:
+
+C:/MinGW/include/ktmtypes.h:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_bool1_precision.hpp:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/camera.h:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/color4.inl:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/matrix3x3.inl:
+
+C:/Users/hp/Desktop/app/F0X-Game/src/shaders/FragmentShader.cpp:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/quaternion.inl:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/scene.h:
+
+C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/math.h:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/texture.h:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/types.h:
+
+C:/MinGW/include/objidlbase.h:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/assimp/vector2.inl:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_float.hpp:
+
+C:/Users/hp/Desktop/app/F0X-Game/src/scenes/Scene1.cpp:
+
+C:/Users/hp/Desktop/app/F0X-Game/src/components/Model.hpp:
+
 C:/MinGW/include/winsock.h:
 
 C:/Users/hp/Desktop/app/F0X-Game/src/entities/Camera.cpp:
@@ -8081,8 +8927,6 @@ C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/thread
 
 C:/Users/hp/Desktop/app/F0X-Game/include/GLFW/glfw3.h:
 
-C:/MinGW/include/stdarg.h:
-
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/matrix_transform.hpp:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/gtc/constants.inl:
@@ -8095,9 +8939,9 @@ C:/Users/hp/Desktop/app/F0X-Game/src/screen/Screen.h:
 
 C:/Users/hp/Desktop/app/F0X-Game/src/entities/Entity.cpp:
 
-C:/Users/hp/Desktop/app/F0X-Game/src/components/Terrain.hpp:
-
 C:/MinGW/include/systemtopologyapi.h:
+
+C:/Users/hp/Desktop/app/F0X-Game/src/components/Terrain.hpp:
 
 C:/Users/hp/Desktop/app/F0X-Game/src/entities/Entity.h:
 
@@ -8137,12 +8981,6 @@ C:/MinGW/include/guiddef.h:
 
 C:/MinGW/include/heapapi.h:
 
-C:/MinGW/include/winioctl.h:
-
-C:/MinGW/include/ktmtypes.h:
-
-C:/MinGW/include/threadpoolapiset.h:
-
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/avx512vlintrin.h:
 
 C:/MinGW/include/lzexpand.h:
@@ -8157,17 +8995,11 @@ C:/MinGW/include/mmiscapi.h:
 
 C:/MinGW/include/msxml.h:
 
-C:/MinGW/include/securitybaseapi.h:
-
 C:/MinGW/include/namedpipeapi.h:
 
 C:/MinGW/include/oaidl.h:
 
-C:/MinGW/include/objidlbase.h:
-
 C:/MinGW/include/ole2.h:
-
-C:/MinGW/include/specstrings.h:
 
 C:/MinGW/include/oleidl.h:
 
@@ -8185,13 +9017,15 @@ C:/MinGW/include/psdk_inc/_ip_mreq1.h:
 
 C:/MinGW/include/psdk_inc/_wsadata.h:
 
-C:/Users/hp/Desktop/app/F0X-Game/include/glm/gtx/compatibility.hpp:
-
-C:/MinGW/include/servprov.h:
-
 C:/MinGW/include/psdk_inc/intrin-impl.h:
 
+C:/MinGW/include/pshpack1.h:
+
 C:/MinGW/include/pshpack2.h:
+
+C:/MinGW/include/wincon.h:
+
+C:/MinGW/include/pshpack8.h:
 
 C:/MinGW/include/realtimeapiset.h:
 
@@ -8203,23 +9037,47 @@ C:/MinGW/include/rpcndr.h:
 
 C:/MinGW/include/rpcnterr.h:
 
+C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/clzerointrin.h:
+
+C:/MinGW/include/sal.h:
+
 C:/MinGW/include/sdkddkver.h:
-
-C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/keylockerintrin.h:
-
-C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/hresetintrin.h:
-
-C:/MinGW/include/sec_api/string_s.h:
 
 C:/MinGW/include/securityappcontainer.h:
 
-C:/MinGW/include/string.h:
+C:/MinGW/include/securitybaseapi.h:
+
+C:/Users/hp/Desktop/app/F0X-Game/include/glm/gtx/compatibility.hpp:
+
+C:/MinGW/include/servprov.h:
+
+C:/Users/hp/Desktop/app/F0X-Game/src/screen/Screen.cpp:
+
+C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/immintrin.h:
+
+C:/MinGW/include/shellapi.h:
+
+C:/MinGW/include/specstrings.h:
+
+C:/MinGW/include/stdarg.h:
+
+C:/MinGW/include/stralign.h:
+
+C:/MinGW/include/sysinfoapi.h:
+
+C:/MinGW/include/threadpoolapiset.h:
+
+C:/MinGW/include/timeapi.h:
 
 C:/MinGW/include/timezoneapi.h:
 
 C:/MinGW/include/tvout.h:
 
 C:/MinGW/include/unknwn.h:
+
+C:/Users/hp/Desktop/app/F0X-Game/src/systems/RenderSystem.h:
+
+C:/MinGW/include/unknwnbase.h:
 
 C:/MinGW/include/urlmon.h:
 
@@ -8399,29 +9257,11 @@ C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xopintrin.
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/xsavecintrin.h:
 
-C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/math.h:
-
 C:/Users/hp/Desktop/app/F0X-Game/include/stb/stb_image.h:
 
 C:/Users/hp/Desktop/app/F0X-Game/src/openGL/Texture.cpp:
 
-C:/Users/hp/Desktop/app/F0X-Game/include/glm/detail/type_float.hpp:
-
-C:/Users/hp/Desktop/app/F0X-Game/src/scenes/Scene1.cpp:
-
-C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/algorithmfwd.h:
-
-C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_algo.h:
-
-C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/stl_heap.h:
-
-C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/bits/uniform_int_dist.h:
-
-C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/pstl/glue_algorithm_defs.h:
-
 C:/Users/hp/Desktop/app/F0X-Game/src/screen/InputManager.cpp:
-
-C:/Users/hp/Desktop/app/F0X-Game/src/shaders/FragmentShader.cpp:
 
 C:/MinGW/x86_64-w64-mingw32/lib/gcc/x86_64-w64-mingw32/15.2.0/include/c++/sstream:
 
@@ -8442,8 +9282,6 @@ C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/quaternion_relational.hpp:
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/quaternion_relational.inl:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_bool1.hpp:
-
-C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_bool1_precision.hpp:
 
 C:/Users/hp/Desktop/app/F0X-Game/include/glm/ext/vector_double1_precision.hpp:
 

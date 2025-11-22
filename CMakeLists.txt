@@ -1,9 +1,12 @@
 cmake_minimum_required(VERSION 3.10)
 project(F0X-win)
 
+# -----------------------------
+# C++ Standard
+# -----------------------------
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_EXTENSIONS OFF)  # Pure standard C++
+set(CMAKE_CXX_EXTENSIONS OFF)
 
 # -----------------------------
 # Directories
@@ -15,7 +18,6 @@ set(BUILD_DIR ${CMAKE_SOURCE_DIR}/build)
 set(OBJ_DIR ${CMAKE_SOURCE_DIR}/bin)
 
 include_directories(${INCLUDE_DIR})
-# Add Assimp include path
 
 # -----------------------------
 # Source files
@@ -31,43 +33,41 @@ set(GLAD_SRC ${SRC_DIR}/glad.c)
 add_executable(${PROJECT_NAME} ${SOURCES} ${GLAD_SRC})
 
 # -----------------------------
-# Linker flags
+# Windows linking
 # -----------------------------
 if(WIN32)
-    # Windows + MinGW
-    # Use static linking to avoid missing DLLs
-    set_target_properties(${PROJECT_NAME} PROPERTIES
-        LINK_FLAGS "-static-libgcc -static-libstdc++"
-    )
+    set_target_properties(${PROJECT_NAME} PROPERTIES LINK_FLAGS "-static-libgcc -static-libstdc++")
 
+    # Link libraries
     target_link_libraries(${PROJECT_NAME}
-        ${LIB_DIR}/libglfw3.a  # Precompiled GLFW for MinGW
+        ${LIB_DIR}/libassimp.a    # static Assimp
+        ${LIB_DIR}/libglfw3.a     # GLFW
+        ${LIB_DIR}/libzlibstatic.a          # zlib for Assimp
         opengl32
         gdi32
         user32
         shell32
     )
+
 elseif(UNIX)
     # Linux / macOS
     find_package(PkgConfig REQUIRED)
     pkg_search_module(GLFW REQUIRED glfw3)
     include_directories(${GLFW_INCLUDE_DIRS})
 
-    # Find Assimp
     find_package(assimp REQUIRED)
-    include_directories(${ASSIMP_INCLUDE_DIRS})
+    find_package(ZLIB REQUIRED)
 
-    # Link libraries
     target_link_libraries(${PROJECT_NAME}
-        ${GLFW_LIBRARIES}   # GLFW
-        ${ASSIMP_LIBRARIES} # Assimp
-        GL                  # OpenGL
-        pthread             # Threads
-        X11                 # X11 (for GLFW)
-        dl                  # Dynamic loader
-        m                   # Math
+        ${GLFW_LIBRARIES}
+        ${ASSIMP_LIBRARIES}
+        GL
+        ZLIB::ZLIB
+        pthread
+        X11
+        dl
+        m
     )
-    
 endif()
 
 # -----------------------------

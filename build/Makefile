@@ -200,6 +200,30 @@ src/components/Mesh.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/components/Mesh.cpp.s
 .PHONY : src/components/Mesh.cpp.s
 
+src/components/Model.obj: src/components/Model.cpp.obj
+.PHONY : src/components/Model.obj
+
+# target to build an object file
+src/components/Model.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/components/Model.cpp.obj
+.PHONY : src/components/Model.cpp.obj
+
+src/components/Model.i: src/components/Model.cpp.i
+.PHONY : src/components/Model.i
+
+# target to preprocess a source file
+src/components/Model.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/components/Model.cpp.i
+.PHONY : src/components/Model.cpp.i
+
+src/components/Model.s: src/components/Model.cpp.s
+.PHONY : src/components/Model.s
+
+# target to generate assembly for a file
+src/components/Model.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\F0X-win.dir\build.make CMakeFiles/F0X-win.dir/src/components/Model.cpp.s
+.PHONY : src/components/Model.cpp.s
+
 src/entities/Camera.obj: src/entities/Camera.cpp.obj
 .PHONY : src/entities/Camera.obj
 
@@ -698,6 +722,9 @@ help:
 	@echo ... src/components/Mesh.obj
 	@echo ... src/components/Mesh.i
 	@echo ... src/components/Mesh.s
+	@echo ... src/components/Model.obj
+	@echo ... src/components/Model.i
+	@echo ... src/components/Model.s
 	@echo ... src/entities/Camera.obj
 	@echo ... src/entities/Camera.i
 	@echo ... src/entities/Camera.s

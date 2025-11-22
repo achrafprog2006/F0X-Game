@@ -113,11 +113,26 @@ CMakeFiles/F0X-win.dir/src/components/Mesh.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/F0X-win.dir/src/components/Mesh.cpp.s"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hp\Desktop\app\F0X-Game\src\components\Mesh.cpp -o CMakeFiles\F0X-win.dir\src\components\Mesh.cpp.s
 
+CMakeFiles/F0X-win.dir/src/components/Model.cpp.obj: CMakeFiles/F0X-win.dir/flags.make
+CMakeFiles/F0X-win.dir/src/components/Model.cpp.obj: CMakeFiles/F0X-win.dir/includes_CXX.rsp
+CMakeFiles/F0X-win.dir/src/components/Model.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/components/Model.cpp
+CMakeFiles/F0X-win.dir/src/components/Model.cpp.obj: CMakeFiles/F0X-win.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/F0X-win.dir/src/components/Model.cpp.obj"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F0X-win.dir/src/components/Model.cpp.obj -MF CMakeFiles\F0X-win.dir\src\components\Model.cpp.obj.d -o CMakeFiles\F0X-win.dir\src\components\Model.cpp.obj -c C:\Users\hp\Desktop\app\F0X-Game\src\components\Model.cpp
+
+CMakeFiles/F0X-win.dir/src/components/Model.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/F0X-win.dir/src/components/Model.cpp.i"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\hp\Desktop\app\F0X-Game\src\components\Model.cpp > CMakeFiles\F0X-win.dir\src\components\Model.cpp.i
+
+CMakeFiles/F0X-win.dir/src/components/Model.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/F0X-win.dir/src/components/Model.cpp.s"
+	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\hp\Desktop\app\F0X-Game\src\components\Model.cpp -o CMakeFiles\F0X-win.dir\src\components\Model.cpp.s
+
 CMakeFiles/F0X-win.dir/src/entities/Camera.cpp.obj: CMakeFiles/F0X-win.dir/flags.make
 CMakeFiles/F0X-win.dir/src/entities/Camera.cpp.obj: CMakeFiles/F0X-win.dir/includes_CXX.rsp
 CMakeFiles/F0X-win.dir/src/entities/Camera.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/entities/Camera.cpp
 CMakeFiles/F0X-win.dir/src/entities/Camera.cpp.obj: CMakeFiles/F0X-win.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/F0X-win.dir/src/entities/Camera.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/F0X-win.dir/src/entities/Camera.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F0X-win.dir/src/entities/Camera.cpp.obj -MF CMakeFiles\F0X-win.dir\src\entities\Camera.cpp.obj.d -o CMakeFiles\F0X-win.dir\src\entities\Camera.cpp.obj -c C:\Users\hp\Desktop\app\F0X-Game\src\entities\Camera.cpp
 
 CMakeFiles/F0X-win.dir/src/entities/Camera.cpp.i: cmake_force
@@ -132,7 +147,7 @@ CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj: CMakeFiles/F0X-win.dir/flags
 CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj: CMakeFiles/F0X-win.dir/includes_CXX.rsp
 CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/entities/Entity.cpp
 CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj: CMakeFiles/F0X-win.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj -MF CMakeFiles\F0X-win.dir\src\entities\Entity.cpp.obj.d -o CMakeFiles\F0X-win.dir\src\entities\Entity.cpp.obj -c C:\Users\hp\Desktop\app\F0X-Game\src\entities\Entity.cpp
 
 CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.i: cmake_force
@@ -147,7 +162,7 @@ CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj: CMakeFiles/F0X-win.di
 CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj: CMakeFiles/F0X-win.dir/includes_CXX.rsp
 CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/entities/EntityManager.cpp
 CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj: CMakeFiles/F0X-win.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj -MF CMakeFiles\F0X-win.dir\src\entities\EntityManager.cpp.obj.d -o CMakeFiles\F0X-win.dir\src\entities\EntityManager.cpp.obj -c C:\Users\hp\Desktop\app\F0X-Game\src\entities\EntityManager.cpp
 
 CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.i: cmake_force
@@ -162,7 +177,7 @@ CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.obj: CMakeFiles/F0X-win.dir
 CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.obj: CMakeFiles/F0X-win.dir/includes_CXX.rsp
 CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/gameEngine/GameEngine.cpp
 CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.obj: CMakeFiles/F0X-win.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.obj -MF CMakeFiles\F0X-win.dir\src\gameEngine\GameEngine.cpp.obj.d -o CMakeFiles\F0X-win.dir\src\gameEngine\GameEngine.cpp.obj -c C:\Users\hp\Desktop\app\F0X-Game\src\gameEngine\GameEngine.cpp
 
 CMakeFiles/F0X-win.dir/src/gameEngine/GameEngine.cpp.i: cmake_force
@@ -177,7 +192,7 @@ CMakeFiles/F0X-win.dir/src/main.cpp.obj: CMakeFiles/F0X-win.dir/flags.make
 CMakeFiles/F0X-win.dir/src/main.cpp.obj: CMakeFiles/F0X-win.dir/includes_CXX.rsp
 CMakeFiles/F0X-win.dir/src/main.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/main.cpp
 CMakeFiles/F0X-win.dir/src/main.cpp.obj: CMakeFiles/F0X-win.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/F0X-win.dir/src/main.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/F0X-win.dir/src/main.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F0X-win.dir/src/main.cpp.obj -MF CMakeFiles\F0X-win.dir\src\main.cpp.obj.d -o CMakeFiles\F0X-win.dir\src\main.cpp.obj -c C:\Users\hp\Desktop\app\F0X-Game\src\main.cpp
 
 CMakeFiles/F0X-win.dir/src/main.cpp.i: cmake_force
@@ -192,7 +207,7 @@ CMakeFiles/F0X-win.dir/src/openGL/Ebo.cpp.obj: CMakeFiles/F0X-win.dir/flags.make
 CMakeFiles/F0X-win.dir/src/openGL/Ebo.cpp.obj: CMakeFiles/F0X-win.dir/includes_CXX.rsp
 CMakeFiles/F0X-win.dir/src/openGL/Ebo.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/openGL/Ebo.cpp
 CMakeFiles/F0X-win.dir/src/openGL/Ebo.cpp.obj: CMakeFiles/F0X-win.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/F0X-win.dir/src/openGL/Ebo.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/F0X-win.dir/src/openGL/Ebo.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F0X-win.dir/src/openGL/Ebo.cpp.obj -MF CMakeFiles\F0X-win.dir\src\openGL\Ebo.cpp.obj.d -o CMakeFiles\F0X-win.dir\src\openGL\Ebo.cpp.obj -c C:\Users\hp\Desktop\app\F0X-Game\src\openGL\Ebo.cpp
 
 CMakeFiles/F0X-win.dir/src/openGL/Ebo.cpp.i: cmake_force
@@ -207,7 +222,7 @@ CMakeFiles/F0X-win.dir/src/openGL/Texture.cpp.obj: CMakeFiles/F0X-win.dir/flags.
 CMakeFiles/F0X-win.dir/src/openGL/Texture.cpp.obj: CMakeFiles/F0X-win.dir/includes_CXX.rsp
 CMakeFiles/F0X-win.dir/src/openGL/Texture.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/openGL/Texture.cpp
 CMakeFiles/F0X-win.dir/src/openGL/Texture.cpp.obj: CMakeFiles/F0X-win.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/F0X-win.dir/src/openGL/Texture.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/F0X-win.dir/src/openGL/Texture.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F0X-win.dir/src/openGL/Texture.cpp.obj -MF CMakeFiles\F0X-win.dir\src\openGL\Texture.cpp.obj.d -o CMakeFiles\F0X-win.dir\src\openGL\Texture.cpp.obj -c C:\Users\hp\Desktop\app\F0X-Game\src\openGL\Texture.cpp
 
 CMakeFiles/F0X-win.dir/src/openGL/Texture.cpp.i: cmake_force
@@ -222,7 +237,7 @@ CMakeFiles/F0X-win.dir/src/openGL/Vao.cpp.obj: CMakeFiles/F0X-win.dir/flags.make
 CMakeFiles/F0X-win.dir/src/openGL/Vao.cpp.obj: CMakeFiles/F0X-win.dir/includes_CXX.rsp
 CMakeFiles/F0X-win.dir/src/openGL/Vao.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/openGL/Vao.cpp
 CMakeFiles/F0X-win.dir/src/openGL/Vao.cpp.obj: CMakeFiles/F0X-win.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/F0X-win.dir/src/openGL/Vao.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/F0X-win.dir/src/openGL/Vao.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F0X-win.dir/src/openGL/Vao.cpp.obj -MF CMakeFiles\F0X-win.dir\src\openGL\Vao.cpp.obj.d -o CMakeFiles\F0X-win.dir\src\openGL\Vao.cpp.obj -c C:\Users\hp\Desktop\app\F0X-Game\src\openGL\Vao.cpp
 
 CMakeFiles/F0X-win.dir/src/openGL/Vao.cpp.i: cmake_force
@@ -237,7 +252,7 @@ CMakeFiles/F0X-win.dir/src/openGL/Vbo.cpp.obj: CMakeFiles/F0X-win.dir/flags.make
 CMakeFiles/F0X-win.dir/src/openGL/Vbo.cpp.obj: CMakeFiles/F0X-win.dir/includes_CXX.rsp
 CMakeFiles/F0X-win.dir/src/openGL/Vbo.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/openGL/Vbo.cpp
 CMakeFiles/F0X-win.dir/src/openGL/Vbo.cpp.obj: CMakeFiles/F0X-win.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/F0X-win.dir/src/openGL/Vbo.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/F0X-win.dir/src/openGL/Vbo.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F0X-win.dir/src/openGL/Vbo.cpp.obj -MF CMakeFiles\F0X-win.dir\src\openGL\Vbo.cpp.obj.d -o CMakeFiles\F0X-win.dir\src\openGL\Vbo.cpp.obj -c C:\Users\hp\Desktop\app\F0X-Game\src\openGL\Vbo.cpp
 
 CMakeFiles/F0X-win.dir/src/openGL/Vbo.cpp.i: cmake_force
@@ -252,7 +267,7 @@ CMakeFiles/F0X-win.dir/src/scenes/Scene1.cpp.obj: CMakeFiles/F0X-win.dir/flags.m
 CMakeFiles/F0X-win.dir/src/scenes/Scene1.cpp.obj: CMakeFiles/F0X-win.dir/includes_CXX.rsp
 CMakeFiles/F0X-win.dir/src/scenes/Scene1.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/scenes/Scene1.cpp
 CMakeFiles/F0X-win.dir/src/scenes/Scene1.cpp.obj: CMakeFiles/F0X-win.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/F0X-win.dir/src/scenes/Scene1.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/F0X-win.dir/src/scenes/Scene1.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F0X-win.dir/src/scenes/Scene1.cpp.obj -MF CMakeFiles\F0X-win.dir\src\scenes\Scene1.cpp.obj.d -o CMakeFiles\F0X-win.dir\src\scenes\Scene1.cpp.obj -c C:\Users\hp\Desktop\app\F0X-Game\src\scenes\Scene1.cpp
 
 CMakeFiles/F0X-win.dir/src/scenes/Scene1.cpp.i: cmake_force
@@ -267,7 +282,7 @@ CMakeFiles/F0X-win.dir/src/screen/InputManager.cpp.obj: CMakeFiles/F0X-win.dir/f
 CMakeFiles/F0X-win.dir/src/screen/InputManager.cpp.obj: CMakeFiles/F0X-win.dir/includes_CXX.rsp
 CMakeFiles/F0X-win.dir/src/screen/InputManager.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/screen/InputManager.cpp
 CMakeFiles/F0X-win.dir/src/screen/InputManager.cpp.obj: CMakeFiles/F0X-win.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/F0X-win.dir/src/screen/InputManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/F0X-win.dir/src/screen/InputManager.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F0X-win.dir/src/screen/InputManager.cpp.obj -MF CMakeFiles\F0X-win.dir\src\screen\InputManager.cpp.obj.d -o CMakeFiles\F0X-win.dir\src\screen\InputManager.cpp.obj -c C:\Users\hp\Desktop\app\F0X-Game\src\screen\InputManager.cpp
 
 CMakeFiles/F0X-win.dir/src/screen/InputManager.cpp.i: cmake_force
@@ -282,7 +297,7 @@ CMakeFiles/F0X-win.dir/src/screen/Screen.cpp.obj: CMakeFiles/F0X-win.dir/flags.m
 CMakeFiles/F0X-win.dir/src/screen/Screen.cpp.obj: CMakeFiles/F0X-win.dir/includes_CXX.rsp
 CMakeFiles/F0X-win.dir/src/screen/Screen.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/screen/Screen.cpp
 CMakeFiles/F0X-win.dir/src/screen/Screen.cpp.obj: CMakeFiles/F0X-win.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/F0X-win.dir/src/screen/Screen.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/F0X-win.dir/src/screen/Screen.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F0X-win.dir/src/screen/Screen.cpp.obj -MF CMakeFiles\F0X-win.dir\src\screen\Screen.cpp.obj.d -o CMakeFiles\F0X-win.dir\src\screen\Screen.cpp.obj -c C:\Users\hp\Desktop\app\F0X-Game\src\screen\Screen.cpp
 
 CMakeFiles/F0X-win.dir/src/screen/Screen.cpp.i: cmake_force
@@ -297,7 +312,7 @@ CMakeFiles/F0X-win.dir/src/shaders/FragmentShader.cpp.obj: CMakeFiles/F0X-win.di
 CMakeFiles/F0X-win.dir/src/shaders/FragmentShader.cpp.obj: CMakeFiles/F0X-win.dir/includes_CXX.rsp
 CMakeFiles/F0X-win.dir/src/shaders/FragmentShader.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/shaders/FragmentShader.cpp
 CMakeFiles/F0X-win.dir/src/shaders/FragmentShader.cpp.obj: CMakeFiles/F0X-win.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/F0X-win.dir/src/shaders/FragmentShader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/F0X-win.dir/src/shaders/FragmentShader.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F0X-win.dir/src/shaders/FragmentShader.cpp.obj -MF CMakeFiles\F0X-win.dir\src\shaders\FragmentShader.cpp.obj.d -o CMakeFiles\F0X-win.dir\src\shaders\FragmentShader.cpp.obj -c C:\Users\hp\Desktop\app\F0X-Game\src\shaders\FragmentShader.cpp
 
 CMakeFiles/F0X-win.dir/src/shaders/FragmentShader.cpp.i: cmake_force
@@ -312,7 +327,7 @@ CMakeFiles/F0X-win.dir/src/shaders/Shader.cpp.obj: CMakeFiles/F0X-win.dir/flags.
 CMakeFiles/F0X-win.dir/src/shaders/Shader.cpp.obj: CMakeFiles/F0X-win.dir/includes_CXX.rsp
 CMakeFiles/F0X-win.dir/src/shaders/Shader.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/shaders/Shader.cpp
 CMakeFiles/F0X-win.dir/src/shaders/Shader.cpp.obj: CMakeFiles/F0X-win.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/F0X-win.dir/src/shaders/Shader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/F0X-win.dir/src/shaders/Shader.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F0X-win.dir/src/shaders/Shader.cpp.obj -MF CMakeFiles\F0X-win.dir\src\shaders\Shader.cpp.obj.d -o CMakeFiles\F0X-win.dir\src\shaders\Shader.cpp.obj -c C:\Users\hp\Desktop\app\F0X-Game\src\shaders\Shader.cpp
 
 CMakeFiles/F0X-win.dir/src/shaders/Shader.cpp.i: cmake_force
@@ -327,7 +342,7 @@ CMakeFiles/F0X-win.dir/src/shaders/VertexShader.cpp.obj: CMakeFiles/F0X-win.dir/
 CMakeFiles/F0X-win.dir/src/shaders/VertexShader.cpp.obj: CMakeFiles/F0X-win.dir/includes_CXX.rsp
 CMakeFiles/F0X-win.dir/src/shaders/VertexShader.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/shaders/VertexShader.cpp
 CMakeFiles/F0X-win.dir/src/shaders/VertexShader.cpp.obj: CMakeFiles/F0X-win.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/F0X-win.dir/src/shaders/VertexShader.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/F0X-win.dir/src/shaders/VertexShader.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F0X-win.dir/src/shaders/VertexShader.cpp.obj -MF CMakeFiles\F0X-win.dir\src\shaders\VertexShader.cpp.obj.d -o CMakeFiles\F0X-win.dir\src\shaders\VertexShader.cpp.obj -c C:\Users\hp\Desktop\app\F0X-Game\src\shaders\VertexShader.cpp
 
 CMakeFiles/F0X-win.dir/src/shaders/VertexShader.cpp.i: cmake_force
@@ -342,7 +357,7 @@ CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.obj: CMakeFiles/F0X-win.dir/
 CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.obj: CMakeFiles/F0X-win.dir/includes_CXX.rsp
 CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/systems/RenderSystem.cpp
 CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.obj: CMakeFiles/F0X-win.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.obj -MF CMakeFiles\F0X-win.dir\src\systems\RenderSystem.cpp.obj.d -o CMakeFiles\F0X-win.dir\src\systems\RenderSystem.cpp.obj -c C:\Users\hp\Desktop\app\F0X-Game\src\systems\RenderSystem.cpp
 
 CMakeFiles/F0X-win.dir/src/systems/RenderSystem.cpp.i: cmake_force
@@ -357,7 +372,7 @@ CMakeFiles/F0X-win.dir/src/systems/TerrainSystem.cpp.obj: CMakeFiles/F0X-win.dir
 CMakeFiles/F0X-win.dir/src/systems/TerrainSystem.cpp.obj: CMakeFiles/F0X-win.dir/includes_CXX.rsp
 CMakeFiles/F0X-win.dir/src/systems/TerrainSystem.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/systems/TerrainSystem.cpp
 CMakeFiles/F0X-win.dir/src/systems/TerrainSystem.cpp.obj: CMakeFiles/F0X-win.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/F0X-win.dir/src/systems/TerrainSystem.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/F0X-win.dir/src/systems/TerrainSystem.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F0X-win.dir/src/systems/TerrainSystem.cpp.obj -MF CMakeFiles\F0X-win.dir\src\systems\TerrainSystem.cpp.obj.d -o CMakeFiles\F0X-win.dir\src\systems\TerrainSystem.cpp.obj -c C:\Users\hp\Desktop\app\F0X-Game\src\systems\TerrainSystem.cpp
 
 CMakeFiles/F0X-win.dir/src/systems/TerrainSystem.cpp.i: cmake_force
@@ -372,7 +387,7 @@ CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.obj: CMakeFiles/F0X-win.d
 CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.obj: CMakeFiles/F0X-win.dir/includes_CXX.rsp
 CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/systems/TransformSystem.cpp
 CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.obj: CMakeFiles/F0X-win.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.obj -MF CMakeFiles\F0X-win.dir\src\systems\TransformSystem.cpp.obj.d -o CMakeFiles\F0X-win.dir\src\systems\TransformSystem.cpp.obj -c C:\Users\hp\Desktop\app\F0X-Game\src\systems\TransformSystem.cpp
 
 CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.i: cmake_force
@@ -387,7 +402,7 @@ CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.obj: CMakeFiles/F0X-win.di
 CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.obj: CMakeFiles/F0X-win.dir/includes_CXX.rsp
 CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.obj: C:/Users/hp/Desktop/app/F0X-Game/src/systems/VelocitySystem.cpp
 CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.obj: CMakeFiles/F0X-win.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.obj"
 	C:\MinGW\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.obj -MF CMakeFiles\F0X-win.dir\src\systems\VelocitySystem.cpp.obj.d -o CMakeFiles\F0X-win.dir\src\systems\VelocitySystem.cpp.obj -c C:\Users\hp\Desktop\app\F0X-Game\src\systems\VelocitySystem.cpp
 
 CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.i: cmake_force
@@ -402,7 +417,7 @@ CMakeFiles/F0X-win.dir/src/glad.c.obj: CMakeFiles/F0X-win.dir/flags.make
 CMakeFiles/F0X-win.dir/src/glad.c.obj: CMakeFiles/F0X-win.dir/includes_C.rsp
 CMakeFiles/F0X-win.dir/src/glad.c.obj: C:/Users/hp/Desktop/app/F0X-Game/src/glad.c
 CMakeFiles/F0X-win.dir/src/glad.c.obj: CMakeFiles/F0X-win.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/F0X-win.dir/src/glad.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/F0X-win.dir/src/glad.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/F0X-win.dir/src/glad.c.obj -MF CMakeFiles\F0X-win.dir\src\glad.c.obj.d -o CMakeFiles\F0X-win.dir\src\glad.c.obj -c C:\Users\hp\Desktop\app\F0X-Game\src\glad.c
 
 CMakeFiles/F0X-win.dir/src/glad.c.i: cmake_force
@@ -418,6 +433,7 @@ F0X__win_OBJECTS = \
 "CMakeFiles/F0X-win.dir/src/Managers/ShaderManager.cpp.obj" \
 "CMakeFiles/F0X-win.dir/src/Managers/TextureManager.cpp.obj" \
 "CMakeFiles/F0X-win.dir/src/components/Mesh.cpp.obj" \
+"CMakeFiles/F0X-win.dir/src/components/Model.cpp.obj" \
 "CMakeFiles/F0X-win.dir/src/entities/Camera.cpp.obj" \
 "CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj" \
 "CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj" \
@@ -445,6 +461,7 @@ F0X__win_EXTERNAL_OBJECTS =
 F0X-win.exe: CMakeFiles/F0X-win.dir/src/Managers/ShaderManager.cpp.obj
 F0X-win.exe: CMakeFiles/F0X-win.dir/src/Managers/TextureManager.cpp.obj
 F0X-win.exe: CMakeFiles/F0X-win.dir/src/components/Mesh.cpp.obj
+F0X-win.exe: CMakeFiles/F0X-win.dir/src/components/Model.cpp.obj
 F0X-win.exe: CMakeFiles/F0X-win.dir/src/entities/Camera.cpp.obj
 F0X-win.exe: CMakeFiles/F0X-win.dir/src/entities/Entity.cpp.obj
 F0X-win.exe: CMakeFiles/F0X-win.dir/src/entities/EntityManager.cpp.obj
@@ -466,11 +483,13 @@ F0X-win.exe: CMakeFiles/F0X-win.dir/src/systems/TransformSystem.cpp.obj
 F0X-win.exe: CMakeFiles/F0X-win.dir/src/systems/VelocitySystem.cpp.obj
 F0X-win.exe: CMakeFiles/F0X-win.dir/src/glad.c.obj
 F0X-win.exe: CMakeFiles/F0X-win.dir/build.make
+F0X-win.exe: C:/Users/hp/Desktop/app/F0X-Game/lib/libassimp.a
 F0X-win.exe: C:/Users/hp/Desktop/app/F0X-Game/lib/libglfw3.a
+F0X-win.exe: C:/Users/hp/Desktop/app/F0X-Game/lib/libzlibstatic.a
 F0X-win.exe: CMakeFiles/F0X-win.dir/linkLibs.rsp
 F0X-win.exe: CMakeFiles/F0X-win.dir/objects1.rsp
 F0X-win.exe: CMakeFiles/F0X-win.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable F0X-win.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\hp\Desktop\app\F0X-Game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable F0X-win.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\F0X-win.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
